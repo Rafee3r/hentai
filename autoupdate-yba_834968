@@ -29,6 +29,25 @@ local Desc = Instance.new("TextLabel")
 local Info1 = Instance.new("TextLabel")
 local Info2 = Instance.new("TextLabel")
 local L3 = Instance.new("TextLabel")
+local Fuct3_2 = Instance.new("ScrollingFrame")
+local B1 = Instance.new("TextButton")
+local LB1 = Instance.new("TextLabel")
+local Account = Instance.new("Frame")
+local Avatar_2 = Instance.new("ImageLabel")
+local Mask_2 = Instance.new("ImageLabel")
+local Username = Instance.new("TextLabel")
+local ID = Instance.new("TextLabel")
+local RemoveData = Instance.new("TextButton")
+local B2 = Instance.new("TextButton")
+local LB2 = Instance.new("TextLabel")
+local FuctSyn = Instance.new("ScrollingFrame")
+local B1_2 = Instance.new("TextButton")
+local LB1_2 = Instance.new("TextLabel")
+local LB2_2 = Instance.new("TextLabel")
+local B3 = Instance.new("TextButton")
+local FuctSyn_2 = Instance.new("TextButton")
+local B2_2 = Instance.new("TextButton")
+local LB3 = Instance.new("TextLabel")
 local Fuct2_2 = Instance.new("ScrollingFrame")
 local LB10 = Instance.new("TextLabel")
 local B10 = Instance.new("TextButton")
@@ -37,14 +56,14 @@ local WarningScripts = Instance.new("TextLabel")
 local B9 = Instance.new("TextButton")
 local LB9 = Instance.new("TextLabel")
 local B8 = Instance.new("TextButton")
-local FuctSyn = Instance.new("TextButton")
+local FuctSyn_3 = Instance.new("TextButton")
 local B11 = Instance.new("TextButton")
 local LB8 = Instance.new("TextLabel")
 local B7 = Instance.new("TextButton")
 local B6 = Instance.new("TextButton")
 local B5 = Instance.new("TextButton")
 local B4 = Instance.new("TextButton")
-local B3 = Instance.new("TextButton")
+local B3_2 = Instance.new("TextButton")
 local LB7 = Instance.new("TextLabel")
 local LB6 = Instance.new("TextLabel")
 local Map = Instance.new("ImageLabel")
@@ -52,30 +71,11 @@ local Title = Instance.new("TextLabel")
 local Player = Instance.new("Frame")
 local LB5 = Instance.new("TextLabel")
 local LB4 = Instance.new("TextLabel")
-local LB3 = Instance.new("TextLabel")
-local B2 = Instance.new("TextButton")
-local LB2 = Instance.new("TextLabel")
-local LB1 = Instance.new("TextLabel")
-local B1 = Instance.new("TextButton")
-local Fuct3_2 = Instance.new("ScrollingFrame")
-local B1_2 = Instance.new("TextButton")
-local LB1_2 = Instance.new("TextLabel")
-local Account = Instance.new("Frame")
-local Avatar_2 = Instance.new("ImageLabel")
-local Mask_2 = Instance.new("ImageLabel")
-local Username = Instance.new("TextLabel")
-local ID = Instance.new("TextLabel")
-local RemoveData = Instance.new("TextButton")
-local B2_2 = Instance.new("TextButton")
-local LB2_2 = Instance.new("TextLabel")
-local FuctSyn_2 = Instance.new("ScrollingFrame")
-local B1_3 = Instance.new("TextButton")
-local LB1_3 = Instance.new("TextLabel")
-local LB2_3 = Instance.new("TextLabel")
-local B3_2 = Instance.new("TextButton")
-local FuctSyn_3 = Instance.new("TextButton")
-local B2_3 = Instance.new("TextButton")
 local LB3_2 = Instance.new("TextLabel")
+local B2_3 = Instance.new("TextButton")
+local LB2_3 = Instance.new("TextLabel")
+local LB1_3 = Instance.new("TextLabel")
+local B1_3 = Instance.new("TextButton")
 
 --Properties:
 
@@ -369,6 +369,237 @@ L3.Text = "Puedes abrir y cerrar el gui con \"P\""
 L3.TextColor3 = Color3.fromRGB(255, 255, 255)
 L3.TextSize = 14.000
 
+Fuct3_2.Name = "Fuct3"
+Fuct3_2.Parent = Selector
+Fuct3_2.Active = true
+Fuct3_2.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+Fuct3_2.BorderSizePixel = 0
+Fuct3_2.ClipsDescendants = false
+Fuct3_2.Size = UDim2.new(0, 285, 0, 296)
+Fuct3_2.Visible = false
+Fuct3_2.ZIndex = 3
+Fuct3_2.CanvasSize = UDim2.new(0, 0, 1, 22)
+Fuct3_2.ScrollBarThickness = 8
+
+B1.Name = "B1"
+B1.Parent = Fuct3_2
+B1.BackgroundColor3 = Color3.fromRGB(182, 82, 82)
+B1.BorderSizePixel = 0
+B1.Position = UDim2.new(0.0947368443, 0, 0.0658783764, 0)
+B1.Size = UDim2.new(0, 32, 0, 32)
+B1.ZIndex = 3
+B1.AutoButtonColor = false
+B1.Font = Enum.Font.SourceSans
+B1.Text = ""
+B1.TextColor3 = Color3.fromRGB(0, 0, 0)
+B1.TextSize = 14.000
+
+LB1.Name = "LB1"
+LB1.Parent = Fuct3_2
+LB1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LB1.BackgroundTransparency = 0.900
+LB1.BorderSizePixel = 0
+LB1.Position = UDim2.new(0.235087723, 0, 0.0658783764, 0)
+LB1.Size = UDim2.new(0, 171, 0, 32)
+LB1.ZIndex = 3
+LB1.Font = Enum.Font.Gotham
+LB1.Text = "Revisar actualizaciones"
+LB1.TextColor3 = Color3.fromRGB(255, 255, 255)
+LB1.TextSize = 14.000
+
+Account.Name = "Account"
+Account.Parent = Fuct3_2
+Account.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Account.BorderSizePixel = 0
+Account.Position = UDim2.new(0.0947368443, 0, 0.221283779, 0)
+Account.Size = UDim2.new(0, 222, 0, 145)
+Account.ZIndex = 3
+
+Avatar_2.Name = "Avatar"
+Avatar_2.Parent = Account
+Avatar_2.Active = true
+Avatar_2.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
+Avatar_2.BorderSizePixel = 0
+Avatar_2.Position = UDim2.new(0.0686581358, 0, 0.118371397, 0)
+Avatar_2.Size = UDim2.new(0, 48, 0, 48)
+Avatar_2.ZIndex = 5
+Avatar_2.Image = "http://www.roblox.com/asset/?id=6803761200"
+
+Mask_2.Name = "Mask"
+Mask_2.Parent = Account
+Mask_2.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
+Mask_2.BackgroundTransparency = 1.000
+Mask_2.BorderSizePixel = 0
+Mask_2.Position = UDim2.new(0.069009006, 0, 0.118655175, 0)
+Mask_2.Size = UDim2.new(0, 48, 0, 48)
+Mask_2.ZIndex = 6
+Mask_2.Image = "http://www.roblox.com/asset/?id=6803761200"
+Mask_2.ImageColor3 = Color3.fromRGB(94, 94, 94)
+
+Username.Name = "Username"
+Username.Parent = Account
+Username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Username.BackgroundTransparency = 1.000
+Username.Position = UDim2.new(0.342405856, 0, 0.150792196, 0)
+Username.Size = UDim2.new(0, 116, 0, 20)
+Username.ZIndex = 6
+Username.Font = Enum.Font.Gotham
+Username.Text = "username"
+Username.TextColor3 = Color3.fromRGB(255, 255, 255)
+Username.TextSize = 14.000
+Username.TextXAlignment = Enum.TextXAlignment.Left
+
+ID.Name = "ID"
+ID.Parent = Account
+ID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ID.BackgroundTransparency = 1.000
+ID.Position = UDim2.new(0.342405856, 0, 0.282758623, 0)
+ID.Size = UDim2.new(0, 116, 0, 19)
+ID.ZIndex = 6
+ID.Font = Enum.Font.Gotham
+ID.Text = "????????????"
+ID.TextColor3 = Color3.fromRGB(171, 171, 171)
+ID.TextSize = 14.000
+ID.TextXAlignment = Enum.TextXAlignment.Left
+
+RemoveData.Name = "RemoveData"
+RemoveData.Parent = Account
+RemoveData.BackgroundColor3 = Color3.fromRGB(109, 109, 109)
+RemoveData.BorderSizePixel = 0
+RemoveData.Position = UDim2.new(0.0855855793, 0, 0.648275852, 0)
+RemoveData.Size = UDim2.new(0, 183, 0, 29)
+RemoveData.ZIndex = 3
+RemoveData.Font = Enum.Font.Gotham
+RemoveData.Text = "Borrar datos registrados"
+RemoveData.TextColor3 = Color3.fromRGB(255, 255, 255)
+RemoveData.TextSize = 14.000
+
+B2.Name = "B2"
+B2.Parent = Account
+B2.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
+B2.BorderSizePixel = 0
+B2.Position = UDim2.new(-0.00436225533, 0, 1.13817573, 0)
+B2.Size = UDim2.new(0, 32, 0, 32)
+B2.ZIndex = 3
+B2.Font = Enum.Font.SourceSans
+B2.Text = ""
+B2.TextColor3 = Color3.fromRGB(0, 0, 0)
+B2.TextSize = 14.000
+
+LB2.Name = "LB2"
+LB2.Parent = Fuct3_2
+LB2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LB2.BackgroundTransparency = 0.900
+LB2.BorderSizePixel = 0
+LB2.Position = UDim2.new(0.238596499, 0, 0.742615581, 0)
+LB2.Size = UDim2.new(0, 162, 0, 32)
+LB2.ZIndex = 3
+LB2.Font = Enum.Font.Gotham
+LB2.Text = "Crear un usuario falso"
+LB2.TextColor3 = Color3.fromRGB(255, 255, 255)
+LB2.TextSize = 14.000
+
+FuctSyn.Name = "FuctSyn"
+FuctSyn.Parent = Selector
+FuctSyn.Active = true
+FuctSyn.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+FuctSyn.BorderSizePixel = 0
+FuctSyn.Position = UDim2.new(1, 0, 0, 0)
+FuctSyn.Size = UDim2.new(0, 285, 0, 296)
+FuctSyn.ZIndex = 3
+FuctSyn.CanvasSize = UDim2.new(0, 0, 1, 22)
+FuctSyn.ScrollBarThickness = 8
+
+B1_2.Name = "B1"
+B1_2.Parent = FuctSyn
+B1_2.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
+B1_2.BorderSizePixel = 0
+B1_2.Position = UDim2.new(0.0947368443, 0, 0.0658783764, 0)
+B1_2.Size = UDim2.new(0, 32, 0, 32)
+B1_2.ZIndex = 3
+B1_2.Font = Enum.Font.SourceSans
+B1_2.Text = ""
+B1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+B1_2.TextSize = 14.000
+
+LB1_2.Name = "LB1"
+LB1_2.Parent = FuctSyn
+LB1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LB1_2.BackgroundTransparency = 0.900
+LB1_2.BorderSizePixel = 0
+LB1_2.Position = UDim2.new(0.231578946, 0, 0.0640179887, 0)
+LB1_2.Size = UDim2.new(0, 110, 0, 32)
+LB1_2.ZIndex = 3
+LB1_2.Font = Enum.Font.Gotham
+LB1_2.Text = "Item esp ultra"
+LB1_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+LB1_2.TextSize = 14.000
+
+LB2_2.Name = "LB2"
+LB2_2.Parent = FuctSyn
+LB2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LB2_2.BackgroundTransparency = 0.900
+LB2_2.BorderSizePixel = 0
+LB2_2.Position = UDim2.new(0.231578946, 0, 0.18723318, 0)
+LB2_2.Size = UDim2.new(0, 104, 0, 32)
+LB2_2.ZIndex = 3
+LB2_2.Font = Enum.Font.Gotham
+LB2_2.Text = "Spy fuctions"
+LB2_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+LB2_2.TextSize = 14.000
+
+B3.Name = "B3"
+B3.Parent = FuctSyn
+B3.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
+B3.BorderSizePixel = 0
+B3.Position = UDim2.new(0.0947368443, 0, 0.31249997, 0)
+B3.Size = UDim2.new(0, 32, 0, 32)
+B3.ZIndex = 3
+B3.Font = Enum.Font.SourceSans
+B3.Text = ""
+B3.TextColor3 = Color3.fromRGB(0, 0, 0)
+B3.TextSize = 14.000
+
+FuctSyn_2.Name = "FuctSyn"
+FuctSyn_2.Parent = FuctSyn
+FuctSyn_2.BackgroundColor3 = Color3.fromRGB(154, 154, 154)
+FuctSyn_2.BorderColor3 = Color3.fromRGB(166, 255, 161)
+FuctSyn_2.BorderSizePixel = 0
+FuctSyn_2.Position = UDim2.new(0.249122798, 0, 0.864568114, 0)
+FuctSyn_2.Size = UDim2.new(0, 138, 0, 27)
+FuctSyn_2.ZIndex = 3
+FuctSyn_2.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
+FuctSyn_2.Font = Enum.Font.GothamBold
+FuctSyn_2.Text = "Back"
+FuctSyn_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+FuctSyn_2.TextSize = 14.000
+FuctSyn_2.TextStrokeColor3 = Color3.fromRGB(166, 255, 161)
+
+B2_2.Name = "B2"
+B2_2.Parent = FuctSyn
+B2_2.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
+B2_2.BorderSizePixel = 0
+B2_2.Position = UDim2.new(0.0947368443, 0, 0.1875, 0)
+B2_2.Size = UDim2.new(0, 32, 0, 32)
+B2_2.ZIndex = 3
+B2_2.Font = Enum.Font.SourceSans
+B2_2.Text = ""
+B2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+B2_2.TextSize = 14.000
+
+LB3.Name = "LB3"
+LB3.Parent = FuctSyn
+LB3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LB3.BackgroundTransparency = 0.900
+LB3.BorderSizePixel = 0
+LB3.Position = UDim2.new(0.231578946, 0, 0.311791092, 0)
+LB3.Size = UDim2.new(0, 98, 0, 32)
+LB3.ZIndex = 3
+LB3.Font = Enum.Font.Gotham
+LB3.Text = "Player radar"
+LB3.TextColor3 = Color3.fromRGB(255, 255, 255)
+LB3.TextSize = 14.000
+
 Fuct2_2.Name = "Fuct2"
 Fuct2_2.Parent = Selector
 Fuct2_2.Active = true
@@ -468,20 +699,20 @@ B8.Text = ""
 B8.TextColor3 = Color3.fromRGB(0, 0, 0)
 B8.TextSize = 14.000
 
-FuctSyn.Name = "FuctSyn"
-FuctSyn.Parent = Fuct2_2
-FuctSyn.BackgroundColor3 = Color3.fromRGB(154, 154, 154)
-FuctSyn.BorderColor3 = Color3.fromRGB(166, 255, 161)
-FuctSyn.BorderSizePixel = 0
-FuctSyn.Position = UDim2.new(0.235087708, 0, 0.822338462, 0)
-FuctSyn.Size = UDim2.new(0, 138, 0, 27)
-FuctSyn.ZIndex = 3
-FuctSyn.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
-FuctSyn.Font = Enum.Font.GothamBold
-FuctSyn.Text = "Synapse fuctions"
-FuctSyn.TextColor3 = Color3.fromRGB(255, 255, 255)
-FuctSyn.TextSize = 14.000
-FuctSyn.TextStrokeColor3 = Color3.fromRGB(166, 255, 161)
+FuctSyn_3.Name = "FuctSyn"
+FuctSyn_3.Parent = Fuct2_2
+FuctSyn_3.BackgroundColor3 = Color3.fromRGB(154, 154, 154)
+FuctSyn_3.BorderColor3 = Color3.fromRGB(166, 255, 161)
+FuctSyn_3.BorderSizePixel = 0
+FuctSyn_3.Position = UDim2.new(0.235087708, 0, 0.822338462, 0)
+FuctSyn_3.Size = UDim2.new(0, 138, 0, 27)
+FuctSyn_3.ZIndex = 3
+FuctSyn_3.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
+FuctSyn_3.Font = Enum.Font.GothamBold
+FuctSyn_3.Text = "Synapse fuctions"
+FuctSyn_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+FuctSyn_3.TextSize = 14.000
+FuctSyn_3.TextStrokeColor3 = Color3.fromRGB(166, 255, 161)
 
 B11.Name = "B11"
 B11.Parent = Fuct2_2
@@ -558,17 +789,17 @@ B4.Text = ""
 B4.TextColor3 = Color3.fromRGB(0, 0, 0)
 B4.TextSize = 14.000
 
-B3.Name = "B3"
-B3.Parent = Fuct2_2
-B3.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
-B3.BorderSizePixel = 0
-B3.Position = UDim2.new(0.0909999982, 0, 0.120378375, 0)
-B3.Size = UDim2.new(0, 32, 0, 32)
-B3.ZIndex = 3
-B3.Font = Enum.Font.SourceSans
-B3.Text = ""
-B3.TextColor3 = Color3.fromRGB(0, 0, 0)
-B3.TextSize = 14.000
+B3_2.Name = "B3"
+B3_2.Parent = Fuct2_2
+B3_2.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
+B3_2.BorderSizePixel = 0
+B3_2.Position = UDim2.new(0.0909999982, 0, 0.120378375, 0)
+B3_2.Size = UDim2.new(0, 32, 0, 32)
+B3_2.ZIndex = 3
+B3_2.Font = Enum.Font.SourceSans
+B3_2.Text = ""
+B3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+B3_2.TextSize = 14.000
 
 LB7.Name = "LB7"
 LB7.Parent = Fuct2_2
@@ -654,280 +885,24 @@ LB4.Text = "Item esp"
 LB4.TextColor3 = Color3.fromRGB(255, 255, 255)
 LB4.TextSize = 14.000
 
-LB3.Name = "LB3"
-LB3.Parent = Fuct2_2
-LB3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LB3.BackgroundTransparency = 0.900
-LB3.BorderSizePixel = 0
-LB3.Position = UDim2.new(0.235087723, 0, 0.119932443, 0)
-LB3.Size = UDim2.new(0, 116, 0, 32)
-LB3.ZIndex = 3
-LB3.Font = Enum.Font.Gotham
-LB3.Text = "Hide player list"
-LB3.TextColor3 = Color3.fromRGB(255, 255, 255)
-LB3.TextSize = 14.000
-
-B2.Name = "B2"
-B2.Parent = Fuct2_2
-B2.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
-B2.BorderSizePixel = 0
-B2.Position = UDim2.new(0.0912280753, 0, 0.0692567527, 0)
-B2.Size = UDim2.new(0, 32, 0, 32)
-B2.ZIndex = 3
-B2.Font = Enum.Font.SourceSans
-B2.Text = ""
-B2.TextColor3 = Color3.fromRGB(0, 0, 0)
-B2.TextSize = 14.000
-
-LB2.Name = "LB2"
-LB2.Parent = Fuct2_2
-LB2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LB2.BackgroundTransparency = 0.900
-LB2.BorderSizePixel = 0
-LB2.Position = UDim2.new(0.235087723, 0, 0.0692567527, 0)
-LB2.Size = UDim2.new(0, 122, 0, 32)
-LB2.ZIndex = 3
-LB2.Font = Enum.Font.Gotham
-LB2.Text = "Open Autofarm"
-LB2.TextColor3 = Color3.fromRGB(255, 255, 255)
-LB2.TextSize = 14.000
-
-LB1.Name = "LB1"
-LB1.Parent = Fuct2_2
-LB1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LB1.BackgroundTransparency = 0.900
-LB1.BorderSizePixel = 0
-LB1.Position = UDim2.new(0.235087723, 0, 0.0202702712, 0)
-LB1.Size = UDim2.new(0, 116, 0, 32)
-LB1.ZIndex = 3
-LB1.Font = Enum.Font.Gotham
-LB1.Text = "Stop all horses"
-LB1.TextColor3 = Color3.fromRGB(255, 255, 255)
-LB1.TextSize = 14.000
-
-B1.Name = "B1"
-B1.Parent = Fuct2_2
-B1.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
-B1.BorderSizePixel = 0
-B1.Position = UDim2.new(0.0909999982, 0, 0.0209999997, 0)
-B1.Size = UDim2.new(0, 32, 0, 32)
-B1.ZIndex = 3
-B1.Font = Enum.Font.SourceSans
-B1.Text = ""
-B1.TextColor3 = Color3.fromRGB(0, 0, 0)
-B1.TextSize = 14.000
-
-Fuct3_2.Name = "Fuct3"
-Fuct3_2.Parent = Selector
-Fuct3_2.Active = true
-Fuct3_2.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
-Fuct3_2.BorderSizePixel = 0
-Fuct3_2.ClipsDescendants = false
-Fuct3_2.Size = UDim2.new(0, 285, 0, 296)
-Fuct3_2.Visible = false
-Fuct3_2.ZIndex = 3
-Fuct3_2.CanvasSize = UDim2.new(0, 0, 1, 22)
-Fuct3_2.ScrollBarThickness = 8
-
-B1_2.Name = "B1"
-B1_2.Parent = Fuct3_2
-B1_2.BackgroundColor3 = Color3.fromRGB(182, 82, 82)
-B1_2.BorderSizePixel = 0
-B1_2.Position = UDim2.new(0.0947368443, 0, 0.0658783764, 0)
-B1_2.Size = UDim2.new(0, 32, 0, 32)
-B1_2.ZIndex = 3
-B1_2.AutoButtonColor = false
-B1_2.Font = Enum.Font.SourceSans
-B1_2.Text = ""
-B1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-B1_2.TextSize = 14.000
-
-LB1_2.Name = "LB1"
-LB1_2.Parent = Fuct3_2
-LB1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LB1_2.BackgroundTransparency = 0.900
-LB1_2.BorderSizePixel = 0
-LB1_2.Position = UDim2.new(0.235087723, 0, 0.0658783764, 0)
-LB1_2.Size = UDim2.new(0, 171, 0, 32)
-LB1_2.ZIndex = 3
-LB1_2.Font = Enum.Font.Gotham
-LB1_2.Text = "Revisar actualizaciones"
-LB1_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-LB1_2.TextSize = 14.000
-
-Account.Name = "Account"
-Account.Parent = Fuct3_2
-Account.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
-Account.BorderSizePixel = 0
-Account.Position = UDim2.new(0.0947368443, 0, 0.221283779, 0)
-Account.Size = UDim2.new(0, 222, 0, 145)
-Account.ZIndex = 3
-
-Avatar_2.Name = "Avatar"
-Avatar_2.Parent = Account
-Avatar_2.Active = true
-Avatar_2.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
-Avatar_2.BorderSizePixel = 0
-Avatar_2.Position = UDim2.new(0.0686581358, 0, 0.118371397, 0)
-Avatar_2.Size = UDim2.new(0, 48, 0, 48)
-Avatar_2.ZIndex = 5
-Avatar_2.Image = "http://www.roblox.com/asset/?id=6803761200"
-
-Mask_2.Name = "Mask"
-Mask_2.Parent = Account
-Mask_2.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
-Mask_2.BackgroundTransparency = 1.000
-Mask_2.BorderSizePixel = 0
-Mask_2.Position = UDim2.new(0.069009006, 0, 0.118655175, 0)
-Mask_2.Size = UDim2.new(0, 48, 0, 48)
-Mask_2.ZIndex = 6
-Mask_2.Image = "http://www.roblox.com/asset/?id=6803761200"
-Mask_2.ImageColor3 = Color3.fromRGB(94, 94, 94)
-
-Username.Name = "Username"
-Username.Parent = Account
-Username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Username.BackgroundTransparency = 1.000
-Username.Position = UDim2.new(0.342405856, 0, 0.150792196, 0)
-Username.Size = UDim2.new(0, 116, 0, 20)
-Username.ZIndex = 6
-Username.Font = Enum.Font.Gotham
-Username.Text = "username"
-Username.TextColor3 = Color3.fromRGB(255, 255, 255)
-Username.TextSize = 14.000
-Username.TextXAlignment = Enum.TextXAlignment.Left
-
-ID.Name = "ID"
-ID.Parent = Account
-ID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ID.BackgroundTransparency = 1.000
-ID.Position = UDim2.new(0.342405856, 0, 0.282758623, 0)
-ID.Size = UDim2.new(0, 116, 0, 19)
-ID.ZIndex = 6
-ID.Font = Enum.Font.Gotham
-ID.Text = "????????????"
-ID.TextColor3 = Color3.fromRGB(171, 171, 171)
-ID.TextSize = 14.000
-ID.TextXAlignment = Enum.TextXAlignment.Left
-
-RemoveData.Name = "RemoveData"
-RemoveData.Parent = Account
-RemoveData.BackgroundColor3 = Color3.fromRGB(109, 109, 109)
-RemoveData.BorderSizePixel = 0
-RemoveData.Position = UDim2.new(0.0855855793, 0, 0.648275852, 0)
-RemoveData.Size = UDim2.new(0, 183, 0, 29)
-RemoveData.ZIndex = 3
-RemoveData.Font = Enum.Font.Gotham
-RemoveData.Text = "Borrar datos registrados"
-RemoveData.TextColor3 = Color3.fromRGB(255, 255, 255)
-RemoveData.TextSize = 14.000
-
-B2_2.Name = "B2"
-B2_2.Parent = Account
-B2_2.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
-B2_2.BorderSizePixel = 0
-B2_2.Position = UDim2.new(-0.00436225533, 0, 1.13817573, 0)
-B2_2.Size = UDim2.new(0, 32, 0, 32)
-B2_2.ZIndex = 3
-B2_2.Font = Enum.Font.SourceSans
-B2_2.Text = ""
-B2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-B2_2.TextSize = 14.000
-
-LB2_2.Name = "LB2"
-LB2_2.Parent = Fuct3_2
-LB2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LB2_2.BackgroundTransparency = 0.900
-LB2_2.BorderSizePixel = 0
-LB2_2.Position = UDim2.new(0.238596499, 0, 0.742615581, 0)
-LB2_2.Size = UDim2.new(0, 162, 0, 32)
-LB2_2.ZIndex = 3
-LB2_2.Font = Enum.Font.Gotham
-LB2_2.Text = "Crear un usuario falso"
-LB2_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-LB2_2.TextSize = 14.000
-
-FuctSyn_2.Name = "FuctSyn"
-FuctSyn_2.Parent = Selector
-FuctSyn_2.Active = true
-FuctSyn_2.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
-FuctSyn_2.BorderSizePixel = 0
-FuctSyn_2.Position = UDim2.new(1, 0, 0, 0)
-FuctSyn_2.Size = UDim2.new(0, 285, 0, 296)
-FuctSyn_2.ZIndex = 3
-FuctSyn_2.CanvasSize = UDim2.new(0, 0, 1, 22)
-FuctSyn_2.ScrollBarThickness = 8
-
-B1_3.Name = "B1"
-B1_3.Parent = FuctSyn_2
-B1_3.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
-B1_3.BorderSizePixel = 0
-B1_3.Position = UDim2.new(0.0947368443, 0, 0.0658783764, 0)
-B1_3.Size = UDim2.new(0, 32, 0, 32)
-B1_3.ZIndex = 3
-B1_3.Font = Enum.Font.SourceSans
-B1_3.Text = ""
-B1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-B1_3.TextSize = 14.000
-
-LB1_3.Name = "LB1"
-LB1_3.Parent = FuctSyn_2
-LB1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LB1_3.BackgroundTransparency = 0.900
-LB1_3.BorderSizePixel = 0
-LB1_3.Position = UDim2.new(0.231578946, 0, 0.0640179887, 0)
-LB1_3.Size = UDim2.new(0, 110, 0, 32)
-LB1_3.ZIndex = 3
-LB1_3.Font = Enum.Font.Gotham
-LB1_3.Text = "Item esp ultra"
-LB1_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-LB1_3.TextSize = 14.000
-
-LB2_3.Name = "LB2"
-LB2_3.Parent = FuctSyn_2
-LB2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LB2_3.BackgroundTransparency = 0.900
-LB2_3.BorderSizePixel = 0
-LB2_3.Position = UDim2.new(0.231578946, 0, 0.18723318, 0)
-LB2_3.Size = UDim2.new(0, 104, 0, 32)
-LB2_3.ZIndex = 3
-LB2_3.Font = Enum.Font.Gotham
-LB2_3.Text = "Spy fuctions"
-LB2_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-LB2_3.TextSize = 14.000
-
-B3_2.Name = "B3"
-B3_2.Parent = FuctSyn_2
-B3_2.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
-B3_2.BorderSizePixel = 0
-B3_2.Position = UDim2.new(0.0947368443, 0, 0.31249997, 0)
-B3_2.Size = UDim2.new(0, 32, 0, 32)
-B3_2.ZIndex = 3
-B3_2.Font = Enum.Font.SourceSans
-B3_2.Text = ""
-B3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-B3_2.TextSize = 14.000
-
-FuctSyn_3.Name = "FuctSyn"
-FuctSyn_3.Parent = FuctSyn_2
-FuctSyn_3.BackgroundColor3 = Color3.fromRGB(154, 154, 154)
-FuctSyn_3.BorderColor3 = Color3.fromRGB(166, 255, 161)
-FuctSyn_3.BorderSizePixel = 0
-FuctSyn_3.Position = UDim2.new(0.249122798, 0, 0.864568114, 0)
-FuctSyn_3.Size = UDim2.new(0, 138, 0, 27)
-FuctSyn_3.ZIndex = 3
-FuctSyn_3.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
-FuctSyn_3.Font = Enum.Font.GothamBold
-FuctSyn_3.Text = "Back"
-FuctSyn_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-FuctSyn_3.TextSize = 14.000
-FuctSyn_3.TextStrokeColor3 = Color3.fromRGB(166, 255, 161)
+LB3_2.Name = "LB3"
+LB3_2.Parent = Fuct2_2
+LB3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LB3_2.BackgroundTransparency = 0.900
+LB3_2.BorderSizePixel = 0
+LB3_2.Position = UDim2.new(0.235087723, 0, 0.119932443, 0)
+LB3_2.Size = UDim2.new(0, 116, 0, 32)
+LB3_2.ZIndex = 3
+LB3_2.Font = Enum.Font.Gotham
+LB3_2.Text = "Hide player list"
+LB3_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+LB3_2.TextSize = 14.000
 
 B2_3.Name = "B2"
-B2_3.Parent = FuctSyn_2
+B2_3.Parent = Fuct2_2
 B2_3.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
 B2_3.BorderSizePixel = 0
-B2_3.Position = UDim2.new(0.0947368443, 0, 0.1875, 0)
+B2_3.Position = UDim2.new(0.0912280753, 0, 0.0692567527, 0)
 B2_3.Size = UDim2.new(0, 32, 0, 32)
 B2_3.ZIndex = 3
 B2_3.Font = Enum.Font.SourceSans
@@ -935,22 +910,47 @@ B2_3.Text = ""
 B2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 B2_3.TextSize = 14.000
 
-LB3_2.Name = "LB3"
-LB3_2.Parent = FuctSyn_2
-LB3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LB3_2.BackgroundTransparency = 0.900
-LB3_2.BorderSizePixel = 0
-LB3_2.Position = UDim2.new(0.231578946, 0, 0.311791092, 0)
-LB3_2.Size = UDim2.new(0, 98, 0, 32)
-LB3_2.ZIndex = 3
-LB3_2.Font = Enum.Font.Gotham
-LB3_2.Text = "Player radar"
-LB3_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-LB3_2.TextSize = 14.000
+LB2_3.Name = "LB2"
+LB2_3.Parent = Fuct2_2
+LB2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LB2_3.BackgroundTransparency = 0.900
+LB2_3.BorderSizePixel = 0
+LB2_3.Position = UDim2.new(0.235087723, 0, 0.0692567527, 0)
+LB2_3.Size = UDim2.new(0, 122, 0, 32)
+LB2_3.ZIndex = 3
+LB2_3.Font = Enum.Font.Gotham
+LB2_3.Text = "Open Autofarm"
+LB2_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+LB2_3.TextSize = 14.000
+
+LB1_3.Name = "LB1"
+LB1_3.Parent = Fuct2_2
+LB1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LB1_3.BackgroundTransparency = 0.900
+LB1_3.BorderSizePixel = 0
+LB1_3.Position = UDim2.new(0.235087723, 0, 0.0202702712, 0)
+LB1_3.Size = UDim2.new(0, 116, 0, 32)
+LB1_3.ZIndex = 3
+LB1_3.Font = Enum.Font.Gotham
+LB1_3.Text = "Stop all horses"
+LB1_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+LB1_3.TextSize = 14.000
+
+B1_3.Name = "B1"
+B1_3.Parent = Fuct2_2
+B1_3.BackgroundColor3 = Color3.fromRGB(113, 182, 136)
+B1_3.BorderSizePixel = 0
+B1_3.Position = UDim2.new(0.0909999982, 0, 0.0209999997, 0)
+B1_3.Size = UDim2.new(0, 32, 0, 32)
+B1_3.ZIndex = 3
+B1_3.Font = Enum.Font.SourceSans
+B1_3.Text = ""
+B1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+B1_3.TextSize = 14.000
 
 -- Scripts:
 
-local function FAEUA_fake_script() -- WelcomeName.LocalScript 
+local function WVHFHI_fake_script() -- WelcomeName.LocalScript 
 	local script = Instance.new('LocalScript', WelcomeName)
 
 	local Label = script.Parent.Parent.WelcomeName
@@ -958,8 +958,8 @@ local function FAEUA_fake_script() -- WelcomeName.LocalScript
 	Label.Text = plrName
 	
 end
-coroutine.wrap(FAEUA_fake_script)()
-local function GMZLMLM_fake_script() -- Fuct1.LocalScript 
+coroutine.wrap(WVHFHI_fake_script)()
+local function YZNSI_fake_script() -- Fuct1.LocalScript 
 	local script = Instance.new('LocalScript', Fuct1)
 
 	button = script.Parent.Parent.Fuct1
@@ -977,8 +977,8 @@ local function GMZLMLM_fake_script() -- Fuct1.LocalScript
 	
 	end)
 end
-coroutine.wrap(GMZLMLM_fake_script)()
-local function GLKMTQB_fake_script() -- Fuct2.LocalScript 
+coroutine.wrap(YZNSI_fake_script)()
+local function SFZLA_fake_script() -- Fuct2.LocalScript 
 	local script = Instance.new('LocalScript', Fuct2)
 
 	button = script.Parent.Parent.Fuct2
@@ -996,8 +996,8 @@ local function GLKMTQB_fake_script() -- Fuct2.LocalScript
 		
 	end)
 end
-coroutine.wrap(GLKMTQB_fake_script)()
-local function RLCLHOV_fake_script() -- Fuct3.LocalScript 
+coroutine.wrap(SFZLA_fake_script)()
+local function WOUBZTT_fake_script() -- Fuct3.LocalScript 
 	local script = Instance.new('LocalScript', Fuct3)
 
 	button = script.Parent.Parent.Fuct3
@@ -1015,22 +1015,19 @@ local function RLCLHOV_fake_script() -- Fuct3.LocalScript
 	
 	end)
 end
-coroutine.wrap(RLCLHOV_fake_script)()
-local function RXRRUF_fake_script() -- Close.LocalScript 
+coroutine.wrap(WOUBZTT_fake_script)()
+local function FDPCYQ_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	button = script.Parent.Parent.Close
 	Gui = script.Parent.Parent.Parent.Parent.Parent.UI
-	UI = script.Parent.Parent.Parent.Parent.Parent.Parent.iRo2pfgEUI
 	
 	button.MouseButton1Click:Connect(function()
 		Gui:TweenPosition(UDim2.new(2, 0,0, 0), 'Out', 'Bounce', 2)
-		wait(3)
-		UI:Destroy()
 	end)
 end
-coroutine.wrap(RXRRUF_fake_script)()
-local function JFFHL_fake_script() -- UI.LocalScript 
+coroutine.wrap(FDPCYQ_fake_script)()
+local function ZJHFXT_fake_script() -- UI.LocalScript 
 	local script = Instance.new('LocalScript', UI)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1073,8 +1070,8 @@ local function JFFHL_fake_script() -- UI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JFFHL_fake_script)()
-local function MUTABNQ_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(ZJHFXT_fake_script)()
+local function FEFJD_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	Announce = script.Parent.Parent.Parent.Announce
@@ -1084,8 +1081,8 @@ local function MUTABNQ_fake_script() -- Close_2.LocalScript
 		Announce:TweenPosition(UDim2.new(0.372, 0,-0.095, 0), 'Out', 1)
 	end)
 end
-coroutine.wrap(MUTABNQ_fake_script)()
-local function HXGK_fake_script() -- UI.AnimUI 
+coroutine.wrap(FEFJD_fake_script)()
+local function SRDKJ_fake_script() -- UI.AnimUI 
 	local script = Instance.new('LocalScript', UI)
 
 	-- {-0.333, 0},{0, 0}
@@ -1109,8 +1106,31 @@ local function HXGK_fake_script() -- UI.AnimUI
 		FontSize = Enum.FontSize.Size14;    
 	})
 end
-coroutine.wrap(HXGK_fake_script)()
-local function UYBSYME_fake_script() -- Avatar.LocalScript 
+coroutine.wrap(SRDKJ_fake_script)()
+local function KMFQ_fake_script() -- UI.Toggle 
+	local script = Instance.new('LocalScript', UI)
+
+	local toggle = false
+	gui = script.Parent.Parent.UI
+	
+	
+	function onKeyPress(actionName, userInputState, inputObject)
+		if userInputState == Enum.UserInputState.Begin then
+			--print("R was pressed")
+			if toggle == false then
+				toggle = true
+				gui.Visible = false
+			else
+				toggle = false
+				gui.Visible = true
+			end
+		end
+	end
+	
+	game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.P)
+end
+coroutine.wrap(KMFQ_fake_script)()
+local function KGYX_fake_script() -- Avatar.LocalScript 
 	local script = Instance.new('LocalScript', Avatar)
 
 	local Players = game:GetService("Players")
@@ -1128,8 +1148,154 @@ local function UYBSYME_fake_script() -- Avatar.LocalScript
 	imageLabel.Image = content
 	imageLabel.Size = UDim2.new(0, 48, 0, 48)
 end
-coroutine.wrap(UYBSYME_fake_script)()
-local function AWCQ_fake_script() -- B10.LocalScript 
+coroutine.wrap(KGYX_fake_script)()
+local function CTRHAXL_fake_script() -- B1.LocalScript 
+	local script = Instance.new('LocalScript', B1)
+
+	button = script.Parent.Parent.B1
+	button.MouseButton1Click:Connect(function()
+		local Player = game.Players.LocalPlayer
+	
+		while true do 
+			for _,v in pairs(game.Workspace:GetChildren()) do
+				if v.Name:find("'s Horse") and not v.Name:find(Player.Name) then
+					pcall(function()
+						v.RemoteEvent:FireServer("Dismount")
+					end)
+				end
+			end
+			wait(1)
+		end
+	end)
+	
+	
+end
+coroutine.wrap(CTRHAXL_fake_script)()
+local function PJHTFEF_fake_script() -- Avatar_2.LocalScript 
+	local script = Instance.new('LocalScript', Avatar_2)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	-- Fetch the thumbnail
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	-- Set the ImageLabel's content to the user thumbnail
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+	imageLabel.Size = UDim2.new(0, 48, 0, 48)
+end
+coroutine.wrap(PJHTFEF_fake_script)()
+local function SFLDVGZ_fake_script() -- Username.LocalScript 
+	local script = Instance.new('LocalScript', Username)
+
+	local Label = script.Parent.Parent.Username
+	local plrName = game:GetService("Players").LocalPlayer.Name
+	Label.Text = plrName
+	
+end
+coroutine.wrap(SFLDVGZ_fake_script)()
+local function BSBTBCA_fake_script() -- ID.LocalScript 
+	local script = Instance.new('LocalScript', ID)
+
+	local Label = script.Parent.Parent.ID
+	local plrId = game:GetService("Players").LocalPlayer
+	Label.Text = plrId.UserId
+	
+end
+coroutine.wrap(BSBTBCA_fake_script)()
+local function JTZKO_fake_script() -- RemoveData.LocalScript 
+	local script = Instance.new('LocalScript', RemoveData)
+
+	button = script.Parent.Parent.RemoveData
+	username = script.Parent.Parent.Username
+	id = script.Parent.Parent.ID
+	avatar = script.Parent.Parent.Avatar
+	
+	button.MouseButton1Click:Connect(function()
+		username.Text = "Unknown"
+		id.Text = "unknownidplayer"
+		avatar.Image = "http://www.roblox.com/asset/?id=6915618307"
+	end)
+end
+coroutine.wrap(JTZKO_fake_script)()
+local function NMYKWJZ_fake_script() -- B2.LocalScript 
+	local script = Instance.new('LocalScript', B2)
+
+	button = script.Parent.Parent.B2
+	avatar = script.Parent.Parent.Avatar
+	id = script.Parent.Parent.ID
+	username = script.Parent.Parent.Username
+	button.MouseButton1Click:Connect(function()
+		
+		local usernamewords = {"JuanitoGamer","mati103748","Ayleen_Ottix","ovejamonn","Pablo3954u2058","JuanPablo392g","Ayleen","PerraCastrada24233","Maticuliao"} 
+		username.Text = usernamewords[math.random(1,#usernamewords)]
+		
+		local idwords = {"1253613432","1563533426","1536316346","1283784725","1673573264","1758305832","1584295042","1252315256","1683623564"} 
+		id.Text = idwords[math.random(1,#idwords)]
+		
+		avatar.Image = "http://www.roblox.com/asset/?id=6915618307"
+	end)
+	
+	
+end
+coroutine.wrap(NMYKWJZ_fake_script)()
+local function QUDD_fake_script() -- B1_2.LocalScript 
+	local script = Instance.new('LocalScript', B1_2)
+
+	button = script.Parent.Parent.B1
+	button.MouseButton1Click:Connect(function()
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Ultra item esp", Text = "Synapse option 1 has be enabled"})
+		loadstring(game:HttpGet("https://gist.githubusercontent.com/Chrrxs/d2dfdcde75c2d11b173aa664c0a6b755/raw", true))()
+	end)
+	
+	
+end
+coroutine.wrap(QUDD_fake_script)()
+local function AMOZWW_fake_script() -- B3.LocalScript 
+	local script = Instance.new('LocalScript', B3)
+
+	button = script.Parent.Parent.B3
+	button.MouseButton1Click:Connect(function()
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Player radar", Text = "Synapse option 3 has be enabled"})
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafee3r/hentai/main/radarplayers", true))()
+	end)
+	
+	
+end
+coroutine.wrap(AMOZWW_fake_script)()
+local function XHPWN_fake_script() -- FuctSyn_2.LocalScript 
+	local script = Instance.new('LocalScript', FuctSyn_2)
+
+	--{0.011, 0},{0, 0}
+	fuct2 = script.Parent.Parent.Parent.Fuct2
+	fuctsyn = script.Parent.Parent.Parent.FuctSyn
+	button = script.Parent.Parent.FuctSyn
+	
+	button.MouseButton1Click:Connect(function()
+		fuct2.Visible = true
+		fuctsyn:TweenPosition(UDim2.new(1, 0,-0.003, 0), 'Out', 1)
+	end)
+	
+end
+coroutine.wrap(XHPWN_fake_script)()
+local function LBLE_fake_script() -- B2_2.LocalScript 
+	local script = Instance.new('LocalScript', B2_2)
+
+	button = script.Parent.Parent.B2
+	button.MouseButton1Click:Connect(function()
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Spy fuctions", Text = "Synapse option 2 has be enabled"})
+		print("Failed to load spy fuctions.")
+	end)
+	
+	
+end
+coroutine.wrap(LBLE_fake_script)()
+local function GSINAB_fake_script() -- B10.LocalScript 
 	local script = Instance.new('LocalScript', B10)
 
 	button = script.Parent.Parent.B10
@@ -1144,8 +1310,8 @@ local function AWCQ_fake_script() -- B10.LocalScript
 	
 		
 end
-coroutine.wrap(AWCQ_fake_script)()
-local function LVQPS_fake_script() -- B9.LocalScript 
+coroutine.wrap(GSINAB_fake_script)()
+local function TVVHMFX_fake_script() -- B9.LocalScript 
 	local script = Instance.new('LocalScript', B9)
 
 	button = script.Parent.Parent.B9
@@ -1168,8 +1334,8 @@ local function LVQPS_fake_script() -- B9.LocalScript
 	
 		
 end
-coroutine.wrap(LVQPS_fake_script)()
-local function ZVNOFNM_fake_script() -- B8.LocalScript 
+coroutine.wrap(TVVHMFX_fake_script)()
+local function AZEPMU_fake_script() -- B8.LocalScript 
 	local script = Instance.new('LocalScript', B8)
 
 	button = script.Parent.Parent.B8
@@ -1180,9 +1346,9 @@ local function ZVNOFNM_fake_script() -- B8.LocalScript
 	
 		
 end
-coroutine.wrap(ZVNOFNM_fake_script)()
-local function YVZWIWT_fake_script() -- FuctSyn.LocalScript 
-	local script = Instance.new('LocalScript', FuctSyn)
+coroutine.wrap(AZEPMU_fake_script)()
+local function MJKIWMR_fake_script() -- FuctSyn_3.LocalScript 
+	local script = Instance.new('LocalScript', FuctSyn_3)
 
 	--{0.011, 0},{0, 0}
 	fuct2 = script.Parent.Parent.Parent.Fuct2
@@ -1198,11 +1364,11 @@ local function YVZWIWT_fake_script() -- FuctSyn.LocalScript
 	end)
 	
 end
-coroutine.wrap(YVZWIWT_fake_script)()
-local function HDIC_fake_script() -- B11.LocalScript 
+coroutine.wrap(MJKIWMR_fake_script)()
+local function FTXPXQ_fake_script() -- B11.LocalScript 
 	local script = Instance.new('LocalScript', B11)
 
-	button = script.Parent.Parent.B10
+	button = script.Parent.Parent.B11
 	button.MouseButton1Click:Connect(function()
 		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Kill all", Text = "Option 11 has be enabled"})
 		while true do
@@ -1226,56 +1392,21 @@ local function HDIC_fake_script() -- B11.LocalScript
 	
 		
 end
-coroutine.wrap(HDIC_fake_script)()
-local function BEZXF_fake_script() -- B7.LocalScript 
+coroutine.wrap(FTXPXQ_fake_script)()
+local function TZIOORV_fake_script() -- B7.LocalScript 
 	local script = Instance.new('LocalScript', B7)
 
 	button = script.Parent.Parent.B7
 	button.MouseButton1Click:Connect(function()
 		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Spy chat", Text = "Option 7 has be enabled"})
-		local Players, SGui = game:GetService("Players"), game:GetService("StarterGui");
-		local Client, NColor3, UD, UD2 = Players.LocalPlayer, Color3.new, UDim.new, UDim2.new
-	
-		local function ChatSpy()
-			local ChatSpyFrame = Client.PlayerGui.Chat.Frame
-			ChatSpyFrame.ChatChannelParentFrame.Visible = true
-			ChatSpyFrame.ChatBarParentFrame.Position = ChatSpyFrame.ChatChannelParentFrame.Position + UD2(UD(), ChatSpyFrame.ChatChannelParentFrame.Size.Y)
-		end
-		ChatSpy()
-	
-		getgenv().ShowHiddenMsg = function(T, C)
-			SGui:SetCore("ChatMakeSystemMessage", {
-				Text = T;
-				Color = C;
-			})
-		end
-		getgenv().Spy = function(Target)
-			Target.Chatted:Connect(function(Msg)
-				if string.find(Msg, "/e ") or string.find(Msg, "/w ") or string.find(Msg, "/whisper ") then
-					ShowHiddenMsg("{YBA-SPY}: ".."["..tostring(Target).."]: "..Msg, NColor3(255,255,255)) -- https://www.rapidtables.com/web/color/RGB_Color.html if you want to change the color of the hidden msg's
-				end
-			end)
-		end
-	
-		local GP = Players:GetPlayers()
-		for i = 1, #GP do
-			local Plr = GP[i]
-			if tostring(Plr) then
-				Spy(Plr)
-			end
-		end
-		Players.PlayerAdded:Connect(function(P)
-			if tostring(P) then
-				Spy(P)
-			end
-		end)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Rafee3r/hentai/main/tjrgsesfees5'))()
 	end)
 	
 		
 end
-coroutine.wrap(BEZXF_fake_script)()
+coroutine.wrap(TZIOORV_fake_script)()
 -- B6.LocalScript is disabled.
-local function UXPLYTT_fake_script() -- B5.LocalScript 
+local function BQEYWN_fake_script() -- B5.LocalScript 
 	local script = Instance.new('LocalScript', B5)
 
 	button = script.Parent.Parent.B5
@@ -1286,8 +1417,8 @@ local function UXPLYTT_fake_script() -- B5.LocalScript
 	
 	
 end
-coroutine.wrap(UXPLYTT_fake_script)()
-local function POSTRY_fake_script() -- B4.LocalScript 
+coroutine.wrap(BQEYWN_fake_script)()
+local function FZXOEYC_fake_script() -- B4.LocalScript 
 	local script = Instance.new('LocalScript', B4)
 
 	button = script.Parent.Parent.B4
@@ -1397,9 +1528,9 @@ local function POSTRY_fake_script() -- B4.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(POSTRY_fake_script)()
-local function MHDKVA_fake_script() -- B3.LocalScript 
-	local script = Instance.new('LocalScript', B3)
+coroutine.wrap(FZXOEYC_fake_script)()
+local function JZAGJAB_fake_script() -- B3_2.LocalScript 
+	local script = Instance.new('LocalScript', B3_2)
 
 	button = script.Parent.Parent.B3
 	button.MouseButton1Click:Connect(function()
@@ -1407,9 +1538,9 @@ local function MHDKVA_fake_script() -- B3.LocalScript
 	end)
 		
 end
-coroutine.wrap(MHDKVA_fake_script)()
-local function ZUWVXUM_fake_script() -- B2.LocalScript 
-	local script = Instance.new('LocalScript', B2)
+coroutine.wrap(JZAGJAB_fake_script)()
+local function HXUM_fake_script() -- B2_3.LocalScript 
+	local script = Instance.new('LocalScript', B2_3)
 
 	button = script.Parent.Parent.B2
 	button.MouseButton1Click:Connect(function()
@@ -1417,9 +1548,9 @@ local function ZUWVXUM_fake_script() -- B2.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/kolgie/YBA-GUI/main/yba-gui-obfuscated.lua"))()
 	end)
 end
-coroutine.wrap(ZUWVXUM_fake_script)()
-local function SAAIVGO_fake_script() -- B1.LocalScript 
-	local script = Instance.new('LocalScript', B1)
+coroutine.wrap(HXUM_fake_script)()
+local function WUYWBFH_fake_script() -- B1_3.LocalScript 
+	local script = Instance.new('LocalScript', B1_3)
 
 	button = script.Parent.Parent.B1
 	button.MouseButton1Click:Connect(function()
@@ -1440,363 +1571,4 @@ local function SAAIVGO_fake_script() -- B1.LocalScript
 	
 	
 end
-coroutine.wrap(SAAIVGO_fake_script)()
-local function QBKP_fake_script() -- B1_2.LocalScript 
-	local script = Instance.new('LocalScript', B1_2)
-
-	button = script.Parent.Parent.B1
-	button.MouseButton1Click:Connect(function()
-		local Player = game.Players.LocalPlayer
-	
-		while true do 
-			for _,v in pairs(game.Workspace:GetChildren()) do
-				if v.Name:find("'s Horse") and not v.Name:find(Player.Name) then
-					pcall(function()
-						v.RemoteEvent:FireServer("Dismount")
-					end)
-				end
-			end
-			wait(1)
-		end
-	end)
-	
-	
-end
-coroutine.wrap(QBKP_fake_script)()
-local function LCYTX_fake_script() -- Avatar_2.LocalScript 
-	local script = Instance.new('LocalScript', Avatar_2)
-
-	local Players = game:GetService("Players")
-	
-	local player = Players.LocalPlayer
-	
-	-- Fetch the thumbnail
-	local userId = player.UserId
-	local thumbType = Enum.ThumbnailType.HeadShot
-	local thumbSize = Enum.ThumbnailSize.Size420x420
-	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
-	
-	-- Set the ImageLabel's content to the user thumbnail
-	local imageLabel = script.Parent
-	imageLabel.Image = content
-	imageLabel.Size = UDim2.new(0, 48, 0, 48)
-end
-coroutine.wrap(LCYTX_fake_script)()
-local function BOUTJID_fake_script() -- Username.LocalScript 
-	local script = Instance.new('LocalScript', Username)
-
-	local Label = script.Parent.Parent.Username
-	local plrName = game:GetService("Players").LocalPlayer.Name
-	Label.Text = plrName
-	
-end
-coroutine.wrap(BOUTJID_fake_script)()
-local function LZYQ_fake_script() -- ID.LocalScript 
-	local script = Instance.new('LocalScript', ID)
-
-	local Label = script.Parent.Parent.ID
-	local plrId = game:GetService("Players").LocalPlayer
-	Label.Text = plrId.UserId
-	
-end
-coroutine.wrap(LZYQ_fake_script)()
-local function UAFMTT_fake_script() -- RemoveData.LocalScript 
-	local script = Instance.new('LocalScript', RemoveData)
-
-	button = script.Parent.Parent.RemoveData
-	username = script.Parent.Parent.Username
-	id = script.Parent.Parent.ID
-	avatar = script.Parent.Parent.Avatar
-	
-	button.MouseButton1Click:Connect(function()
-		username.Text = "Unknown"
-		id.Text = "unknownidplayer"
-		avatar.Image = "http://www.roblox.com/asset/?id=6915618307"
-	end)
-end
-coroutine.wrap(UAFMTT_fake_script)()
-local function OUYKEP_fake_script() -- B2_2.LocalScript 
-	local script = Instance.new('LocalScript', B2_2)
-
-	button = script.Parent.Parent.B2
-	avatar = script.Parent.Parent.Avatar
-	id = script.Parent.Parent.ID
-	username = script.Parent.Parent.Username
-	button.MouseButton1Click:Connect(function()
-		
-		local usernamewords = {"JuanitoGamer","mati103748","Ayleen_Ottix","ovejamonn","Pablo3954u2058","JuanPablo392g","Ayleen","PerraCastrada24233","Maticuliao"} 
-		username.Text = usernamewords[math.random(1,#usernamewords)]
-		
-		local idwords = {"1253613432","1563533426","1536316346","1283784725","1673573264","1758305832","1584295042","1252315256","1683623564"} 
-		id.Text = idwords[math.random(1,#idwords)]
-		
-		avatar.Image = "http://www.roblox.com/asset/?id=6915618307"
-	end)
-	
-	
-end
-coroutine.wrap(OUYKEP_fake_script)()
-local function NEPZWZW_fake_script() -- B1_3.LocalScript 
-	local script = Instance.new('LocalScript', B1_3)
-
-	button = script.Parent.Parent.B1
-	button.MouseButton1Click:Connect(function()
-		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Ultra item esp", Text = "Synapse option 1 has be enabled"})
-		loadstring(game:HttpGet("https://gist.githubusercontent.com/Chrrxs/d2dfdcde75c2d11b173aa664c0a6b755/raw", true))()
-	end)
-	
-	
-end
-coroutine.wrap(NEPZWZW_fake_script)()
-local function ADEUXMX_fake_script() -- B3_2.LocalScript 
-	local script = Instance.new('LocalScript', B3_2)
-
-	button = script.Parent.Parent.B1
-	button.MouseButton1Click:Connect(function()
-		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Player radar", Text = "Synapse option 3 has be enabled"})
-		local Players = game:service("Players")
-		local Player = Players.LocalPlayer
-		local Mouse = Player:GetMouse()
-		local Camera = game:service("Workspace").CurrentCamera
-		local RS = game:service("RunService")
-		local UIS = game:service("UserInputService")
-	
-		repeat wait() until Player.Character ~= nil and Player.Character.PrimaryPart ~= nil
-	
-		local LerpColorModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ESPs/main/LerpColorModule.lua"))()
-		local HealthBarLerp = LerpColorModule:Lerp(Color3.fromRGB(255, 0, 0), Color3.fromRGB(0, 255, 0))
-	
-		local function NewCircle(Transparency, Color, Radius, Filled, Thickness)
-			local c = Drawing.new("Circle")
-			c.Transparency = Transparency
-			c.Color = Color
-			c.Visible = false
-			c.Thickness = Thickness
-			c.Position = Vector2.new(0, 0)
-			c.Radius = Radius
-			c.NumSides = math.clamp(Radius*55/100, 10, 75)
-			c.Filled = Filled
-			return c
-		end
-	
-		local RadarInfo = {
-			Position = Vector2.new(200, 200),
-			Radius = 100,
-			Scale = 1, -- Determinant factor on the effect of the relative position for the 2D integration
-			RadarBack = Color3.fromRGB(10, 10, 10),
-			RadarBorder = Color3.fromRGB(75, 75, 75),
-			LocalPlayerDot = Color3.fromRGB(255, 255, 255),
-			PlayerDot = Color3.fromRGB(60, 170, 255),
-			Team = Color3.fromRGB(0, 255, 0),
-			Enemy = Color3.fromRGB(255, 0, 0),
-			Health_Color = true,
-			Team_Check = true
-		}
-	
-		local RadarBackground = NewCircle(0.9, RadarInfo.RadarBack, RadarInfo.Radius, true, 1)
-		RadarBackground.Visible = true
-		RadarBackground.Position = RadarInfo.Position
-	
-		local RadarBorder = NewCircle(0.75, RadarInfo.RadarBorder, RadarInfo.Radius, false, 3)
-		RadarBorder.Visible = true
-		RadarBorder.Position = RadarInfo.Position
-	
-		local function GetRelative(pos)
-			local char = Player.Character
-			if char ~= nil and char.PrimaryPart ~= nil then
-				local pmpart = char.PrimaryPart
-				local camerapos = Vector3.new(Camera.CFrame.Position.X, pmpart.Position.Y, Camera.CFrame.Position.Z)
-				local newcf = CFrame.new(pmpart.Position, camerapos)
-				local r = newcf:PointToObjectSpace(pos)
-				return r.X, r.Z
-			else
-				return 0, 0
-			end
-		end
-	
-		local function PlaceDot(plr)
-			local PlayerDot = NewCircle(1, RadarInfo.PlayerDot, 3, true, 1)
-	
-			local function Update()
-				local c 
-				c = game:service("RunService").RenderStepped:Connect(function()
-					local char = plr.Character
-					if char and char:FindFirstChildOfClass("Humanoid") and char.PrimaryPart ~= nil and char:FindFirstChildOfClass("Humanoid").Health > 0 then
-						local hum = char:FindFirstChildOfClass("Humanoid")
-						local scale = RadarInfo.Scale
-						local relx, rely = GetRelative(char.PrimaryPart.Position)
-						local newpos = RadarInfo.Position - Vector2.new(relx * scale, rely * scale) 
-	
-						if (newpos - RadarInfo.Position).magnitude < RadarInfo.Radius-2 then 
-							PlayerDot.Radius = 3   
-							PlayerDot.Position = newpos
-							PlayerDot.Visible = true
-						else 
-							local dist = (RadarInfo.Position - newpos).magnitude
-							local calc = (RadarInfo.Position - newpos).unit * (dist - RadarInfo.Radius)
-							local inside = Vector2.new(newpos.X + calc.X, newpos.Y + calc.Y)
-							PlayerDot.Radius = 2
-							PlayerDot.Position = inside
-							PlayerDot.Visible = true
-						end
-	
-						PlayerDot.Color = RadarInfo.PlayerDot
-						if RadarInfo.Team_Check then
-							if plr.TeamColor == Player.TeamColor then
-								PlayerDot.Color = RadarInfo.Team
-							else
-								PlayerDot.Color = RadarInfo.Enemy
-							end
-						end
-	
-						if RadarInfo.Health_Color then
-							PlayerDot.Color = HealthBarLerp(hum.Health / hum.MaxHealth)
-						end
-					else 
-						PlayerDot.Visible = false
-						if Players:FindFirstChild(plr.Name) == nil then
-							PlayerDot:Remove()
-							c:Disconnect()
-						end
-					end
-				end)
-			end
-			coroutine.wrap(Update)()
-		end
-	
-		for _,v in pairs(Players:GetChildren()) do
-			if v.Name ~= Player.Name then
-				PlaceDot(v)
-			end
-		end
-	
-		local function NewLocalDot()
-			local d = Drawing.new("Triangle")
-			d.Visible = true
-			d.Thickness = 1
-			d.Filled = true
-			d.Color = RadarInfo.LocalPlayerDot
-			d.PointA = RadarInfo.Position + Vector2.new(0, -6)
-			d.PointB = RadarInfo.Position + Vector2.new(-3, 6)
-			d.PointC = RadarInfo.Position + Vector2.new(3, 6)
-			return d
-		end
-	
-		local LocalPlayerDot = NewLocalDot()
-	
-		Players.PlayerAdded:Connect(function(v)
-			if v.Name ~= Player.Name then
-				PlaceDot(v)
-			end
-			LocalPlayerDot:Remove()
-			LocalPlayerDot = NewLocalDot()
-		end)
-	
-		-- Loop
-		coroutine.wrap(function()
-			local c 
-			c = game:service("RunService").RenderStepped:Connect(function()
-				if LocalPlayerDot ~= nil then
-					LocalPlayerDot.Color = RadarInfo.LocalPlayerDot
-					LocalPlayerDot.PointA = RadarInfo.Position + Vector2.new(0, -6)
-					LocalPlayerDot.PointB = RadarInfo.Position + Vector2.new(-3, 6)
-					LocalPlayerDot.PointC = RadarInfo.Position + Vector2.new(3, 6)
-				end
-				RadarBackground.Position = RadarInfo.Position
-				RadarBackground.Radius = RadarInfo.Radius
-				RadarBackground.Color = RadarInfo.RadarBack
-	
-				RadarBorder.Position = RadarInfo.Position
-				RadarBorder.Radius = RadarInfo.Radius
-				RadarBorder.Color = RadarInfo.RadarBorder
-			end)
-		end)()
-	
-		-- Draggable
-		local inset = game:service("GuiService"):GetGuiInset()
-	
-		local dragging = false
-		local offset = Vector2.new(0, 0)
-		UIS.InputBegan:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseButton1 and (Vector2.new(Mouse.X, Mouse.Y + inset.Y) - RadarInfo.Position).magnitude < RadarInfo.Radius then
-				offset = RadarInfo.Position - Vector2.new(Mouse.X, Mouse.Y)
-				dragging = true
-			end
-		end)
-	
-		UIS.InputEnded:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseButton1 then
-				dragging = false
-			end
-		end)
-	
-		coroutine.wrap(function()
-			local dot = NewCircle(1, Color3.fromRGB(255, 255, 255), 3, true, 1)
-			local c 
-			c = game:service("RunService").RenderStepped:Connect(function()
-				if (Vector2.new(Mouse.X, Mouse.Y + inset.Y) - RadarInfo.Position).magnitude < RadarInfo.Radius then
-					dot.Position = Vector2.new(Mouse.X, Mouse.Y + inset.Y)
-					dot.Visible = true
-				else 
-					dot.Visible = false
-				end
-				if dragging then
-					RadarInfo.Position = Vector2.new(Mouse.X, Mouse.Y) + offset
-				end
-			end)
-		end)()
-	end)
-	
-	
-end
-coroutine.wrap(ADEUXMX_fake_script)()
-local function PTYBB_fake_script() -- FuctSyn_3.LocalScript 
-	local script = Instance.new('LocalScript', FuctSyn_3)
-
-	--{0.011, 0},{0, 0}
-	fuct2 = script.Parent.Parent.Parent.Fuct2
-	fuctsyn = script.Parent.Parent.Parent.FuctSyn
-	button = script.Parent.Parent.FuctSyn
-	
-	button.MouseButton1Click:Connect(function()
-		fuct2.Visible = true
-		fuctsyn:TweenPosition(UDim2.new(1, 0,-0.003, 0), 'Out', 1)
-	end)
-	
-end
-coroutine.wrap(PTYBB_fake_script)()
-local function PUHWU_fake_script() -- B2_3.LocalScript 
-	local script = Instance.new('LocalScript', B2_3)
-
-	button = script.Parent.Parent.B1
-	button.MouseButton1Click:Connect(function()
-		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Spy fuctions", Text = "Synapse option 2 has be enabled"})
-		print("Failed to load spy fuctions.")
-	end)
-	
-	
-end
-coroutine.wrap(PUHWU_fake_script)()
-local function MTVLD_fake_script() -- UI.Toggle 
-	local script = Instance.new('LocalScript', UI)
-
-	local toggle = true
-	gui = script.Parent.Parent.UI
-	
-	
-	function onKeyPress(actionName, userInputState, inputObject)
-		if userInputState == Enum.UserInputState.Begin then
-			--print("R was pressed")
-			if toggle == false then
-				toggle = true
-				gui.Visible = false
-			else
-				toggle = false
-				gui.Visible = true
-			end
-		end
-	end
-	
-	game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.P)
-end
-coroutine.wrap(MTVLD_fake_script)()
+coroutine.wrap(WUYWBFH_fake_script)()
