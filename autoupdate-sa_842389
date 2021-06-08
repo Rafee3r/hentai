@@ -276,9 +276,7 @@ Fuct1_2.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
 Fuct1_2.BorderSizePixel = 0
 Fuct1_2.ClipsDescendants = false
 Fuct1_2.Size = UDim2.new(0, 285, 0, 296)
-Fuct1_2.Visible = false
 Fuct1_2.ZIndex = 3
-Fuct1_2.CanvasPosition = Vector2.new(0, 150)
 Fuct1_2.CanvasSize = UDim2.new(0, 0, 1, 150)
 Fuct1_2.ScrollBarThickness = 8
 
@@ -498,6 +496,7 @@ Fuct2_2.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
 Fuct2_2.BorderSizePixel = 0
 Fuct2_2.ClipsDescendants = false
 Fuct2_2.Size = UDim2.new(0, 285, 0, 296)
+Fuct2_2.Visible = false
 Fuct2_2.ZIndex = 3
 Fuct2_2.ScrollBarThickness = 8
 
@@ -824,7 +823,7 @@ LB10.TextSize = 14.000
 
 -- Scripts:
 
-local function ZDEK_fake_script() -- WelcomeName.LocalScript 
+local function JRSDWB_fake_script() -- WelcomeName.LocalScript 
 	local script = Instance.new('LocalScript', WelcomeName)
 
 	local Label = script.Parent.Parent.WelcomeName
@@ -832,8 +831,8 @@ local function ZDEK_fake_script() -- WelcomeName.LocalScript
 	Label.Text = plrName
 	
 end
-coroutine.wrap(ZDEK_fake_script)()
-local function FSTN_fake_script() -- Fuct1.LocalScript 
+coroutine.wrap(JRSDWB_fake_script)()
+local function ELVV_fake_script() -- Fuct1.LocalScript 
 	local script = Instance.new('LocalScript', Fuct1)
 
 	button = script.Parent.Parent.Fuct1
@@ -851,8 +850,8 @@ local function FSTN_fake_script() -- Fuct1.LocalScript
 	
 	end)
 end
-coroutine.wrap(FSTN_fake_script)()
-local function QKGXS_fake_script() -- Fuct2.LocalScript 
+coroutine.wrap(ELVV_fake_script)()
+local function BVHBR_fake_script() -- Fuct2.LocalScript 
 	local script = Instance.new('LocalScript', Fuct2)
 
 	button = script.Parent.Parent.Fuct2
@@ -870,8 +869,8 @@ local function QKGXS_fake_script() -- Fuct2.LocalScript
 		
 	end)
 end
-coroutine.wrap(QKGXS_fake_script)()
-local function VXGYJ_fake_script() -- Fuct3.LocalScript 
+coroutine.wrap(BVHBR_fake_script)()
+local function QPGM_fake_script() -- Fuct3.LocalScript 
 	local script = Instance.new('LocalScript', Fuct3)
 
 	button = script.Parent.Parent.Fuct3
@@ -889,8 +888,8 @@ local function VXGYJ_fake_script() -- Fuct3.LocalScript
 	
 	end)
 end
-coroutine.wrap(VXGYJ_fake_script)()
-local function ZSLSBSS_fake_script() -- Close.LocalScript 
+coroutine.wrap(QPGM_fake_script)()
+local function BPLAIN_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	button = script.Parent.Parent.Close
@@ -900,8 +899,8 @@ local function ZSLSBSS_fake_script() -- Close.LocalScript
 		Gui:TweenPosition(UDim2.new(2, 0,0, 0), 'Out', 'Bounce', 2)
 	end)
 end
-coroutine.wrap(ZSLSBSS_fake_script)()
-local function SABQ_fake_script() -- UI.LocalScript 
+coroutine.wrap(BPLAIN_fake_script)()
+local function CFFCA_fake_script() -- UI.LocalScript 
 	local script = Instance.new('LocalScript', UI)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -944,8 +943,8 @@ local function SABQ_fake_script() -- UI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SABQ_fake_script)()
-local function ECFG_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(CFFCA_fake_script)()
+local function UTDW_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	Announce = script.Parent.Parent.Parent.Announce
@@ -955,8 +954,8 @@ local function ECFG_fake_script() -- Close_2.LocalScript
 		Announce:TweenPosition(UDim2.new(0.372, 0,-0.095, 0), 'Out', 0.3)
 	end)
 end
-coroutine.wrap(ECFG_fake_script)()
-local function QSPGXWL_fake_script() -- Announce_2.LocalScript 
+coroutine.wrap(UTDW_fake_script)()
+local function AVXIPE_fake_script() -- Announce_2.LocalScript 
 	local script = Instance.new('LocalScript', Announce_2)
 
 	textannounce = script.Parent.Parent.Announce
@@ -964,8 +963,8 @@ local function QSPGXWL_fake_script() -- Announce_2.LocalScript
 	local announce = {"Compra synapse X","Deja de llorar maldita puta","Ayleen para de wear","Benja culiao simp","Chupalo mati","xd","a","Recuerda comprar synapse","Mati culiao","Chupalo mati culiao","Buy synapse X","No cierres esto o explota tu pc"} 
 	textannounce.Text = announce[math.random(1,#announce)]
 end
-coroutine.wrap(QSPGXWL_fake_script)()
-local function WSHO_fake_script() -- UI.AnimUI 
+coroutine.wrap(AVXIPE_fake_script)()
+local function NYQZ_fake_script() -- UI.AnimUI 
 	local script = Instance.new('LocalScript', UI)
 
 	-- {-0.333, 0},{0, 0}
@@ -989,8 +988,8 @@ local function WSHO_fake_script() -- UI.AnimUI
 		FontSize = Enum.FontSize.Size14;    
 	})
 end
-coroutine.wrap(WSHO_fake_script)()
-local function PYUNAHJ_fake_script() -- UI.Toggle 
+coroutine.wrap(NYQZ_fake_script)()
+local function CFGB_fake_script() -- UI.Toggle 
 	local script = Instance.new('LocalScript', UI)
 
 	local toggle = false
@@ -1012,8 +1011,8 @@ local function PYUNAHJ_fake_script() -- UI.Toggle
 	
 	game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.P)
 end
-coroutine.wrap(PYUNAHJ_fake_script)()
-local function WRPRZS_fake_script() -- Avatar.LocalScript 
+coroutine.wrap(CFGB_fake_script)()
+local function CLAWIDM_fake_script() -- Avatar.LocalScript 
 	local script = Instance.new('LocalScript', Avatar)
 
 	local Players = game:GetService("Players")
@@ -1031,8 +1030,8 @@ local function WRPRZS_fake_script() -- Avatar.LocalScript
 	imageLabel.Image = content
 	imageLabel.Size = UDim2.new(0, 48, 0, 48)
 end
-coroutine.wrap(WRPRZS_fake_script)()
-local function VMFIGPE_fake_script() -- B1.LocalScript 
+coroutine.wrap(CLAWIDM_fake_script)()
+local function LWDP_fake_script() -- B1.LocalScript 
 	local script = Instance.new('LocalScript', B1)
 
 	button = script.Parent.Parent.B1
@@ -1053,8 +1052,8 @@ local function VMFIGPE_fake_script() -- B1.LocalScript
 	
 	
 end
-coroutine.wrap(VMFIGPE_fake_script)()
-local function WPXQBO_fake_script() -- Avatar_2.LocalScript 
+coroutine.wrap(LWDP_fake_script)()
+local function QFPU_fake_script() -- Avatar_2.LocalScript 
 	local script = Instance.new('LocalScript', Avatar_2)
 
 	local Players = game:GetService("Players")
@@ -1072,8 +1071,8 @@ local function WPXQBO_fake_script() -- Avatar_2.LocalScript
 	imageLabel.Image = content
 	imageLabel.Size = UDim2.new(0, 48, 0, 48)
 end
-coroutine.wrap(WPXQBO_fake_script)()
-local function QEQEUGC_fake_script() -- Username.LocalScript 
+coroutine.wrap(QFPU_fake_script)()
+local function RKSUC_fake_script() -- Username.LocalScript 
 	local script = Instance.new('LocalScript', Username)
 
 	local Label = script.Parent.Parent.Username
@@ -1081,8 +1080,8 @@ local function QEQEUGC_fake_script() -- Username.LocalScript
 	Label.Text = plrName
 	
 end
-coroutine.wrap(QEQEUGC_fake_script)()
-local function SVZWZ_fake_script() -- ID.LocalScript 
+coroutine.wrap(RKSUC_fake_script)()
+local function AQYOL_fake_script() -- ID.LocalScript 
 	local script = Instance.new('LocalScript', ID)
 
 	local Label = script.Parent.Parent.ID
@@ -1090,8 +1089,8 @@ local function SVZWZ_fake_script() -- ID.LocalScript
 	Label.Text = plrId.UserId
 	
 end
-coroutine.wrap(SVZWZ_fake_script)()
-local function SIPJEVT_fake_script() -- RemoveData.LocalScript 
+coroutine.wrap(AQYOL_fake_script)()
+local function MHHWWL_fake_script() -- RemoveData.LocalScript 
 	local script = Instance.new('LocalScript', RemoveData)
 
 	button = script.Parent.Parent.RemoveData
@@ -1105,8 +1104,8 @@ local function SIPJEVT_fake_script() -- RemoveData.LocalScript
 		avatar.Image = "http://www.roblox.com/asset/?id=6915618307"
 	end)
 end
-coroutine.wrap(SIPJEVT_fake_script)()
-local function IJACE_fake_script() -- B2.LocalScript 
+coroutine.wrap(MHHWWL_fake_script)()
+local function AGEAP_fake_script() -- B2.LocalScript 
 	local script = Instance.new('LocalScript', B2)
 
 	button = script.Parent.Parent.B2
@@ -1126,8 +1125,8 @@ local function IJACE_fake_script() -- B2.LocalScript
 	
 	
 end
-coroutine.wrap(IJACE_fake_script)()
-local function JNYF_fake_script() -- B1_2.LocalScript 
+coroutine.wrap(AGEAP_fake_script)()
+local function NNTTEPF_fake_script() -- B1_2.LocalScript 
 	local script = Instance.new('LocalScript', B1_2)
 
 	button = script.Parent.Parent.B1
@@ -1148,8 +1147,8 @@ local function JNYF_fake_script() -- B1_2.LocalScript
 	
 	
 end
-coroutine.wrap(JNYF_fake_script)()
-local function TUPM_fake_script() -- B2_2.LocalScript 
+coroutine.wrap(NNTTEPF_fake_script)()
+local function RAJAOKX_fake_script() -- B2_2.LocalScript 
 	local script = Instance.new('LocalScript', B2_2)
 
 	button = script.Parent.Parent.B2
@@ -1168,8 +1167,8 @@ local function TUPM_fake_script() -- B2_2.LocalScript
 		game.Players.LocalPlayer.Character:SetPrimaryPartCFrame(oldPos)
 	end)
 end
-coroutine.wrap(TUPM_fake_script)()
-local function LSIW_fake_script() -- B5.LocalScript 
+coroutine.wrap(RAJAOKX_fake_script)()
+local function CPOZWYQ_fake_script() -- B5.LocalScript 
 	local script = Instance.new('LocalScript', B5)
 
 	button = script.Parent.Parent.B5
@@ -1180,13 +1179,13 @@ local function LSIW_fake_script() -- B5.LocalScript
 	
 	
 end
-coroutine.wrap(LSIW_fake_script)()
-local function KPQLUIR_fake_script() -- B4.LocalScript 
+coroutine.wrap(CPOZWYQ_fake_script)()
+local function UBESHEB_fake_script() -- B4.LocalScript 
 	local script = Instance.new('LocalScript', B4)
 
 	button = script.Parent.Parent.B4
 	button.MouseButton1Click:Connect(function()
-		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Autofarm", Text = "error id.34"})
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Autofarm", Text = "Option 4 has be enabled"})
 		_G.ItemsFarm = true -- Toggle change it to false to turn it off
 		while _G.ItemsFarm do wait() -- Toggle
 			---------------------------------------------------- Script
@@ -1201,8 +1200,8 @@ local function KPQLUIR_fake_script() -- B4.LocalScript
 		end -- End lol
 	end)
 end
-coroutine.wrap(KPQLUIR_fake_script)()
-local function BEKU_fake_script() -- B3.LocalScript 
+coroutine.wrap(UBESHEB_fake_script)()
+local function OLEWD_fake_script() -- B3.LocalScript 
 	local script = Instance.new('LocalScript', B3)
 
 	button = script.Parent.Parent.B3
@@ -1220,8 +1219,8 @@ local function BEKU_fake_script() -- B3.LocalScript
 	end)
 		
 end
-coroutine.wrap(BEKU_fake_script)()
-local function CGLCP_fake_script() -- B11.LocalScript 
+coroutine.wrap(OLEWD_fake_script)()
+local function OTKYPDB_fake_script() -- B11.LocalScript 
 	local script = Instance.new('LocalScript', B11)
 
 	button = script.Parent.Parent.B11
@@ -1248,8 +1247,8 @@ local function CGLCP_fake_script() -- B11.LocalScript
 	
 		
 end
-coroutine.wrap(CGLCP_fake_script)()
-local function PUGA_fake_script() -- B6.LocalScript 
+coroutine.wrap(OTKYPDB_fake_script)()
+local function VQNOW_fake_script() -- B6.LocalScript 
 	local script = Instance.new('LocalScript', B6)
 
 	button = script.Parent.Parent.B6
@@ -1260,8 +1259,8 @@ local function PUGA_fake_script() -- B6.LocalScript
 	
 	
 end
-coroutine.wrap(PUGA_fake_script)()
-local function WWXDW_fake_script() -- B10.LocalScript 
+coroutine.wrap(VQNOW_fake_script)()
+local function LVCL_fake_script() -- B10.LocalScript 
 	local script = Instance.new('LocalScript', B10)
 
 	button = script.Parent.Parent.B10
@@ -1294,8 +1293,8 @@ local function WWXDW_fake_script() -- B10.LocalScript
 	
 	
 end
-coroutine.wrap(WWXDW_fake_script)()
-local function ULQBWHJ_fake_script() -- B7.LocalScript 
+coroutine.wrap(LVCL_fake_script)()
+local function LWZCD_fake_script() -- B7.LocalScript 
 	local script = Instance.new('LocalScript', B7)
 
 	button = script.Parent.Parent.B7
@@ -1307,15 +1306,15 @@ local function ULQBWHJ_fake_script() -- B7.LocalScript
 	
 	
 end
-coroutine.wrap(ULQBWHJ_fake_script)()
-local function QFBNN_fake_script() -- B8.LocalScript 
+coroutine.wrap(LWZCD_fake_script)()
+local function GVCFB_fake_script() -- B8.LocalScript 
 	local script = Instance.new('LocalScript', B8)
 
 	button = script.Parent.Parent.B8
 	button.MouseButton1Click:Connect(function()
 		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Anti time stop", Text = "Option 8 has be enabled"})
 		
-	    local meta = getrawmetatable(game)
+		local meta = getrawmetatable(game)
 	
 		make_writeable(meta)
 	
@@ -1334,8 +1333,8 @@ local function QFBNN_fake_script() -- B8.LocalScript
 	
 	
 end
-coroutine.wrap(QFBNN_fake_script)()
-local function MEOPWF_fake_script() -- B9.LocalScript 
+coroutine.wrap(GVCFB_fake_script)()
+local function BEBSMZE_fake_script() -- B9.LocalScript 
 	local script = Instance.new('LocalScript', B9)
 
 	button = script.Parent.Parent.B9
@@ -1359,4 +1358,4 @@ local function MEOPWF_fake_script() -- B9.LocalScript
 	
 	
 end
-coroutine.wrap(MEOPWF_fake_script)()
+coroutine.wrap(BEBSMZE_fake_script)()
