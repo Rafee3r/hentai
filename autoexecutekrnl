@@ -1,6 +1,6 @@
 local workspace = game.workspace
 local player = game.Players.Localplayer
 
-workspace:Delete()
+workspace:Remove()
 wait(43)
 player.Kick('Failed to load fuctions!')
